@@ -16,8 +16,11 @@
     font-family: Modak,sans-serif;
     font-size: 90px;
     color: #bb2a38;
-    
     background-color: #82ea9a;
+}
+
+.logo{
+    background: url("..assets/images/logo.jpg")
 }
 /*-------------------------------------------------about section*/
 .home-text{
@@ -32,9 +35,20 @@
     margin: 10px;
     padding: 10px 10px 10px 10px;
     border: solid 1px #777777;
+    
+    
 }
 .center-form{
-    max-width: 60%;
+    max-width: 100%;
+}
+
+/*-------------------------------------------------sign up section*/
+.join-btm{
+    padding: 20px;
+    margin-top: 30px;
+}
+.pass-text{
+    margin-bottom: 20px;
 }
 
 /*-------------------------------------------------footer section*/
