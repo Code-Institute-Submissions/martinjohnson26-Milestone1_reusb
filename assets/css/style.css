@@ -16,21 +16,29 @@
     font-family: Modak,sans-serif;
     font-size: 90px;
     color: #bb2a38;
-    background-color: #82ea9a;
-}
-
-.logo{
-    background: url("..assets/images/logo.jpg")
-}
-/*-------------------------------------------------about section*/
+    background: url('../images/clublogo.jpg');
+    background-repeat: no-repeat;
+    
+   }
+   
+/*-------------------------------------------------home section*/
+.container-home{
+    background: url("../images/runners.jpg") no-repeat;
+    background-size: 100% 100%;
+ }
 .home-text{
     font-family:Roboto, sans-serif;
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 10px;
-    background-color: #8a8a8a;
     color: #fafafa
 }
+/*-------------------------------------------------about section*/
+.container-about{
+
+}
+
+    
 .about-text {
     margin: 10px;
     padding: 10px 10px 10px 10px;
