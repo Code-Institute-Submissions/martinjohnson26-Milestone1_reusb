@@ -18,8 +18,11 @@
     color: #bb2a38;
     background: url('../images/clublogo.jpg');
     background-repeat: no-repeat;
-    
-   }
+    }
+    .navbar navbar-toggler-icon{    
+  color: rgba(0, 0, 0, .5)
+
+    }
    
 /*-------------------------------------------------home section*/
 .container-home{
@@ -49,6 +52,15 @@
 .center-form{
     max-width: 100%;
 }
+/*----------------------------------------training plans section*/
+.form-check{
+    margin: 10px 10px 10px 10px;
+    border: solid 2px red;
+    padding-left: 4rem
+}
+.plan-types h4{
+    text-align: center;
+}
 
 /*-------------------------------------------------sign up section*/
 .join-btm{
@@ -58,6 +70,12 @@
 .pass-text{
     margin-bottom: 20px;
 }
+/*----------------------------------------------testimonials section*/
+.testimonial{
+    margin: 10px 10px 10px 10px;
+    border: solid 2px red;
+    padding-left: 15px;
+   
 
 /*-------------------------------------------------footer section*/
 
