@@ -22,15 +22,19 @@
 
   <body>
     <header>
+    <div class="container">
       <div class="row">
-        <a href="index.html" class="clublogo col-3"></a>
+      <div class="col-3">
+        <a href="index.html" class="clublogo"></a>
+      </div>
       </div>
       <div class="col-9">
         <h1 class="site-heading text-uppercase">lets keep running</h1>
       </div>
+      </div>
       <div>
         <nav class="navbar navbar-expand-md bg-light navbar-light">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="index.html">Lets Keep Running</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -112,71 +116,113 @@
     </section>
 
     <!--Sign Up form-->
-    <section id="plans">
-      <div>  
-<button class="btn btn-lg btn-success btn-block" data-toggle="modal" data-target="#joinclub">Click here to Sign Up to 
-<strong class="text-uppercase">lets keep running</strong> and get FREE access to all our plans</button>
-</div>
- 
-
-    
-<!-- Button to Open the Modal -->
-
-
-<!-- The Modal -->
-<div class="modal" id="joinclub">
-    <div class="modal-dialog">
-        <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header">
-        <h5 class="modal-title">Join Lets Keep Running</h5>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-
-      <!-- Modal body -->
-        <div class="modal-body">
-        <form action="https://formdump.codeinstitute.net/" method="post">
-            <label for="firstname">First Name</label>
-            <input type="text" class="form-control" id="firstname" placeholder="First Name"/>
-            <label for="lastname">Last Name</label>
-            <input type="text" class="form-control" id="lastname" placeholder="Last Name"/>
-            <label for="datebirth">Date of Birth</label>
-            <input type="text" class="form-control" id="datebirth" placeholder="DD/MM/YYYY"/>
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="E-mail Address"/>
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>     
-            <label for="password1">Password</label>
-            <input type="password" class="form-control" id="password1" placeholder="Please enter a password"/>
-             <label for="password2">Re-Enter Password</label>
-            <input type="password" class="form-control" id="password2" placeholder="Please re-enter your password"/>
-        </form> 
-            
-        </div>      
-    
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class= "btn btn-success">Join Now !!</button>
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+    <section id="signup">
+      <div>
+        <button
+          class="btn btn-lg btn-success btn-block"
+          data-toggle="modal"
+          data-target="#joinclub"
+        >
+          Click here to Sign Up to
+          <strong class="text-uppercase">lets keep running</strong> and get FREE
+          access to all our plans
+        </button>
       </div>
-    </div>   
-  </div>  
-      
-</div>
+
+      <!-- Button to Open the Modal -->
+
+      <!-- The Modal -->
+      <div class="modal" id="joinclub">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h5 class="modal-title">Join Lets Keep Running</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="https://formdump.codeinstitute.net/" method="post">
+                <label for="firstname">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  placeholder="First Name"
+                />
+                <label for="lastname">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  placeholder="Last Name"
+                />
+                <label for="datebirth">Date of Birth</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="datebirth"
+                  placeholder="DD/MM/YYYY"
+                />
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="E-mail Address"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+                <label for="password1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password1"
+                  placeholder="Please enter a password"
+                />
+                <label for="password2">Re-Enter Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password2"
+                  placeholder="Please re-enter your password"
+                />
+              </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success">Join Now !!</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Training Plans-->
-    <section>
+    <section id="plans">
       <div class="container-fluid">
         <h2 class="text-center">
           Select your training plan
         </h2>
       </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-4 plan-types">
-          <h4>Beginner</h4>
-          <div class="form-check">
+      
+      <div class="member-alert alert-warning text-center ">
+      Training plans are for members only. Please sign in or join our members club
+      </div>
+     
+      <div class="container container-plans">
+      <h4 class="text-center">Beginner</h4>
+      <div class="container form-check">
+        <div class="row">
+          <div class="col-4 plan-types">
             <input
               type="checkbox"
               class="form-check-input"
@@ -184,23 +230,31 @@
               name="beg5k"
               value="beg5k"
             />
-            <label for="beg5k">5K Plan</label> <br />
+            <label for="beg5k">5K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="beg10k"
-              name="beg5k"
+              name="beg10k"
               value="beg10k"
             />
-            <label for="beg10k">10K Plan</label> <br />
+            <label for="beg10k">10K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="beghm"
-              name="beg5k"
+              name="beghm"
               value="beghm"
             />
-            <label for="beghm">Half Marathon Plan</label> <br />
+            <label for="beghm">Half Marathon Plan</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -208,7 +262,9 @@
               name="begm"
               value="begm"
             />
-            <label for="begm">Marathon Plan</label> <br />
+            <label for="begm">Marathon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -216,7 +272,9 @@
               name="begtri"
               value="begtri"
             />
-            <label for="begtri">Triathlon Plan</label> <br />
+            <label for="begtri">Triathlon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -224,13 +282,15 @@
               name="begocr"
               value="begocr"
             />
-            <label for="begocr">Obstacle Race Plan</label> <br />
+            <label for="begocr">Obstacle Race Plan</label>
           </div>
         </div>
-
-        <div class="col-12 col-sm-4 plan-types">
-          <h4>Intermediate</h4>
-          <div class="form-check">
+      </div>
+      
+      <h4 class="text-center">Intermediate</h4>
+      <div class="container form-check">
+        <div class="row">
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -238,23 +298,32 @@
               name="int5k"
               value="int5k"
             />
-            <label for="int5k">5K Plan</label><br />
+            <label for="int5k">5K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="int10k"
-              name="int5k"
+              name="int10k"
               value="int10k"
             />
-            <label for="int10k">10K Plan</label> <br />
+            <label for="int10k">10K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="inthm"
-              name="int5k"
+              name="inthm"
               value="inthm"
             />
-            <label for="inthm">Half Marathon Plan</label> <br />
+            <label for="inthm">Half Marathon Plan</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -262,7 +331,9 @@
               name="intm"
               value="intm"
             />
-            <label for="intm">Marathon Plan</label> <br />
+            <label for="intm">Marathon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -270,7 +341,9 @@
               name="inttri"
               value="inttri"
             />
-            <label for="inttri">Triathlon Plan</label><br />
+            <label for="inttri">Triathlon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -278,13 +351,14 @@
               name="intocr"
               value="intocr"
             />
-            <label for="intocr">Obstacle Race Plan</label><br />
+            <label for="intocr">Obstacle Race Plan</label>
           </div>
         </div>
-
-        <div class="col-12 col-sm-4 plan-types">
-          <h4>Advanced</h4>
-          <div class="form-check">
+      </div>
+      <h4 class="text-center">Advanced</h4>
+      <div class="container form-check">
+        <div class="row">
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -292,23 +366,31 @@
               name="adv5k"
               value="adv5k"
             />
-            <label for="adv5k">5K Plan</label> <br />
+            <label for="adv5k">5K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="adv10k"
-              name="adv5k"
+              name="adv10k"
               value="adv10k"
             />
-            <label for="adv10k">10K Plan</label> <br />
+            <label for="adv10k">10K Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
               id="advhm"
-              name="adv5k"
+              name="advhm"
               value="advhm"
             />
-            <label for="advhm">Half Marathon Plan</label> <br />
+            <label for="advhm">Half Marathon Plan</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -316,7 +398,9 @@
               name="advm"
               value="advm"
             />
-            <label for="advm">Marathon Plan</label> <br />
+            <label for="advm">Marathon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -324,7 +408,9 @@
               name="advtri"
               value="advtri"
             />
-            <label for="advtri">Triathlon Plan</label> <br />
+            <label for="advtri">Triathlon Plan</label>
+          </div>
+          <div class="col-4">
             <input
               type="checkbox"
               class="form-check-input"
@@ -336,73 +422,83 @@
           </div>
         </div>
       </div>
-      <div>
-        Training plans are for members only. Please sign in or join our members
-        club
       </div>
+     
     </section>
 
     <!--testamonials-->
-    <section>
 
-        <div class="row">
-            <div class="col-12 col-md-4 ">
-            <div class="media testimonial">
-            <div class="d-none d-sm-block">
-                
-                <img
-                  src="assets/images/coe.jpg"
-                  alt="coe" class="rounded-circle float-right" height="100"width="100"/>
-                  <h6>
+    <section id="testimonial">
+      <div class="container-fluid">
+        <h2 class="text-center">
+          Testimonials
+        </h2>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <div class="media testimonial">
+            <div class="col-12 d-sm-inline">
+              <img
+                src="assets/images/coe.jpg"
+                alt="coe"
+                class="rounded-circle float-right"
+                height="100"
+                width="100"
+              />
+              <h6>
                 Being a novice runner, I was interested in improving my running.
                 Lets keep Running were fully understanding of my experience
                 level. Their plans were fun, yet challenging and I've now
                 improved by 5k times by over 10 minutes.
               </h6>
-              <p class="text-muted"> -John Doe May 2017</p>
+              <p class="text-muted">-John Doe May 2017</p>
             </div>
-            </div>
-            </div>
-            
-            <div class="col-12 col-md-4 ">
-            <div class="media testimonial">
-            <div class="d-none d-sm-block">
-      
-                
-                
-                <img
-                  src="assets/images/rad.jpg"
-                  alt="rad" class="rounded-circle float-right" height="100"width="100"/>
-                  <h6>
-                The plans have been awesome for me. I used to start running and I'd quit within a month 3 or 4 times
-                 in a year. The training plans make a big difference. They keep me motivated and interested. 
-                 Thanks Lets Keep Running.
-              </h6>
-              <p class="text-muted"> -Jane Doe Dec 2018</p>
-                
-            </div>
-             </div>
-             </div>
-            <div class="col-12 col-md-4 ">
-            <div class="media testimonial">
-            <div class="d-none d-sm-block">
-      
-                
-                
-                <img
-                  src="assets/images/kip.jpg"
-                  alt="kip" class="rounded-circle float-right" height="100"width="100"/>
-                  <h6>
-                I used Lets Keep Running plans for my first ever marathon. 
-                I loved the plan, checking off each workout every day. 
-                Marathon day came and i finished in just over 4 hours 
-                I would highly recommend Lets Keep Running for all your running requirements.
-              </h6>
-              <p class="text-muted"> -Jim Doe Oct 2019</p>
-            </div>
-             </div>
-             </div>
+          </div>
         </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="media testimonial">
+            <div class="col-12 d-sm-inline">
+              <img
+                src="assets/images/rad.jpg"
+                alt="rad"
+                class="rounded-circle float-right"
+                height="100"
+                width="100"
+              />
+              <h6>
+                The plans have been awesome for me. I used to start running and
+                I'd quit within a month 3 or 4 times in a year. The training
+                plans make a big difference. They keep me motivated and
+                interested. Thanks Lets Keep Running.
+              </h6>
+              <p class="text-muted">-Jane Doe Dec 2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4">
+          <div class="media testimonial">
+            <div class="col-12d-sm-inline">
+              <img
+                src="assets/images/kip.jpg"
+                alt="kip"
+                class="rounded-circle float-right"
+                height="100"
+                width="100"
+              />
+              <h6>
+                I used Lets Keep Running plans for my first ever marathon. I
+                loved the plan, checking off each workout every day. Marathon
+                day came and i finished in just over 4 hours I would highly
+                recommend Lets Keep Running for all your running requirements.
+              </h6>
+              <p class="text-muted">-Jim Doe Oct 2019</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
     <footer>
       <div>

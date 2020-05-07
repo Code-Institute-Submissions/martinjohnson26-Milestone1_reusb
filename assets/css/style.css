@@ -18,11 +18,19 @@
     color: #bb2a38;
     background: url('../images/clublogo.jpg');
     background-repeat: no-repeat;
+    overflow: hidden;
     }
     .navbar navbar-toggler-icon{    
-  color: rgba(0, 0, 0, .5)
-
+    color: rgba(0, 0, 0, .5)
     }
+    .navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+  }
    
 /*-------------------------------------------------home section*/
 .container-home{
@@ -37,29 +45,36 @@
     color: #fafafa
 }
 /*-------------------------------------------------about section*/
-.container-about{
 
-}
-
-    
+ 
 .about-text {
     margin: 10px;
-    padding: 10px 10px 10px 10px;
-    border: solid 1px #777777;
+    padding: 10px 20px 10px 20px;
+    border: solid 1px #777777;}
     
     
-}
-.center-form{
-    max-width: 100%;
-}
+
 /*----------------------------------------training plans section*/
 .form-check{
     margin: 10px 10px 10px 10px;
-    border: solid 2px red;
-    padding-left: 4rem
+    border: solid 1px rgb(130, 130, 130);
+    padding-left: 2rem;
+}
+.plan-types{
+    padding-left: 15px;
 }
 .plan-types h4{
     text-align: center;
+}
+
+
+.member-alert{
+    
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+    
 }
 
 /*-------------------------------------------------sign up section*/
@@ -73,7 +88,7 @@
 /*----------------------------------------------testimonials section*/
 .testimonial{
     margin: 10px 10px 10px 10px;
-    border: solid 2px red;
+    border: solid 1px rgb(130, 130, 130);
     padding-left: 15px;
     display: block;
     
