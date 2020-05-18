@@ -21,7 +21,7 @@
     overflow: hidden;
     }
     .navbar navbar-toggler-icon{    
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, 0.5)
     }
     .navbar {
   overflow: hidden;
@@ -31,6 +31,9 @@
   width: 100%;
   float: right;
   }
+  .navbar-brand {
+      font-weight: bold;
+      }
    
 /*-------------------------------------------------home section*/
 .container-home{
@@ -91,6 +94,12 @@
     border: solid 1px rgb(130, 130, 130);
     padding-left: 15px;
     display: block;
+
+    /*----------------------------------------------links section*/
+
+.card{
+len
+    }
     
    
 
