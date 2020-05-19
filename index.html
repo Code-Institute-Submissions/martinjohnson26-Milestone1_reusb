@@ -22,14 +22,16 @@
 
   <body>
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-3">
-            <a href="index.html" class="clublogo"></a>
+          <div class="col-3 clublogo">
+            <a href="index.html">
+            <img src="assets/images/clublogo.jpg" alt="logo">
+            </a>
           </div>
-        </div>
-        <div class="col-9">
+          <div class="col-9">
           <h1 class="site-heading text-uppercase">lets keep running</h1>
+          </div>
         </div>
       </div>
       <div>
@@ -44,7 +46,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
@@ -55,7 +57,7 @@
                 <a class="nav-link" href="#plans">Training Plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="links.html">Links</a>
+                <a class="nav-link" href="#links">Links</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -69,7 +71,7 @@
     <!-- Home Section-->
     <section>
       <div class="container-fluid container-home">
-        <div class="home-text">
+        <div class="home-text text-center">
           <h2>Couch to 5k........and beyond</h2>
           <h2>So you've completed your couch to 5k program</h2>
           <h2>What up next?</h2>
@@ -117,7 +119,13 @@
 
     <!--Sign Up form-->
     <section id="signup">
-      <div>
+    <div class="container-fluid container-about text-center">
+        <h2>Sign Up to </h2>
+        <h2><strong>LETS KEEP RUNNING</strong> </h2>
+        <h2>and get FREE and Exclusive access to our training plans </h2>
+        <div class="about-text text-center">
+
+      
         <button
           class="btn btn-lg btn-success"
           data-toggle="modal"
@@ -125,7 +133,8 @@
         >
           Sign Up 
         </button>
-      </div>
+        </div>
+    </div>
     </section>
 
     <!-- Training Plans-->
@@ -135,11 +144,12 @@
           Select your training plan
         </h2>
       </div>
-
-      <div class="member-alert alert-warning text-center">
+        
+      <div class="plan-warning alert alert-warning text-center">
         Training plans are for members only. Please sign in or join our members
         club
-      </div>
+      </div> 
+      
 
       <div class="container container-plans">
         <h4 class="text-center">Beginner</h4>

@@ -11,15 +11,20 @@
 /*-------------------------------------------------header section*/
 .site-heading{
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin: 0;
     font-family: Modak,sans-serif;
-    font-size: 90px;
+    font-size: 100px;
     color: #bb2a38;
-    background: url('../images/clublogo.jpg');
+    
+    }
+    .clublogo
+    {background: url('../images/clublogo.jpg');
     background-repeat: no-repeat;
     overflow: hidden;
-    }
+    width: auto;
+
+    
     .navbar navbar-toggler-icon{    
     color: rgba(0, 0, 0, 0.5)
     }
@@ -32,12 +37,12 @@
   float: right;
   }
   .navbar-brand {
-      font-weight: bold;
+      font-weight: bolder;
       }
    
 /*-------------------------------------------------home section*/
 .container-home{
-    background: url("../images/runners.jpg") no-repeat;
+    background: url("../images/runners.jpg") no-repeat bottom right fixed;
     background-size: 100% 100%;
  }
 .home-text{
@@ -69,16 +74,13 @@
 .plan-types h4{
     text-align: center;
 }
-
-
-.member-alert{
-    
-    align-items: center;
-    color: red;
-    font-weight: bold;
+.plan-warning{
     background-color: yellow;
-    
+    font-weight: bold;
+    color: red;
 }
+
+
 
 /*-------------------------------------------------sign up section*/
 .join-btm{
@@ -97,9 +99,7 @@
 
     /*----------------------------------------------links section*/
 
-.card{
-len
-    }
+
     
    
 
@@ -107,6 +107,5 @@ len
 
 .social-media-title{
     text-align: center;
-    
 }
 
