@@ -1,111 +1,145 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Modak:100,200,300,400,500,600,700");
 
 /*-------------------------------------------------paddings, margins & text*/
-
-
+.block-divide {
+  width: 50px;
+  height: 2px;
+  border: 0;
+  background-color: #222222;
+}
 
 /*-------------------------------------------------colours*/
 
-
-
 /*-------------------------------------------------header section*/
-.site-heading{
-    text-align: center;
-    letter-spacing: 2px;
-    margin: 0;
-    font-family: Modak,sans-serif;
-    font-size: 100px;
-    color: #bb2a38;
-    
-    }
-    .clublogo
-    {background: url('../images/clublogo.jpg');
-    background-repeat: no-repeat;
-    overflow: hidden;
-    width: auto;
+.site-heading {
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: Modak, sans-serif;
+  font-size: 100px;
+  color: #bb2a38;
+  padding-top: 50px;
+  margin-top: 40px;
+}
+.clublogo {
+  background: url("../images/clublogo.jpg") no-repeat bottom right fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: auto;
+  padding-top: 50px;
+}
 
-    
-    .navbar navbar-toggler-icon{    
-    color: rgba(0, 0, 0, 0.5)
-    }
-    .navbar {
+.navbar navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+.navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
   float: right;
-  }
-  .navbar-brand {
-      font-weight: bolder;
-      }
-   
+}
+.navbar-brand {
+  font-weight: bolder;
+}
+
 /*-------------------------------------------------home section*/
-.container-home{
-    background: url("../images/runners.jpg") no-repeat bottom right fixed;
-    background-size: 100% 100%;
- }
-.home-text{
-    font-family:Roboto, sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-    color: #fafafa
+.container-home {
+  background-image: url("../images/runners.jpg");
+  background-size: 100% 100%;
+}
+
+.home-text {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  color: #fafafa;
 }
 /*-------------------------------------------------about section*/
 
- 
 .about-text {
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
-    border: solid 1px #777777;}
-    
-    
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  border: solid 1px #777777;
+}
+
+.container-about {
+  padding-top: 10px;
+}
 
 /*----------------------------------------training plans section*/
-.form-check{
-    margin: 10px 10px 10px 10px;
-    border: solid 1px rgb(130, 130, 130);
-    padding-left: 2rem;
+.form-check {
+  margin: 10px 10px 10px 10px;
+  border: solid 2px rgb(130, 130, 130);
+  padding-left: 2rem;
 }
-.plan-types{
-    padding-left: 15px;
+.container-plans form-check {
+  font: bold;
 }
-.plan-types h4{
-    text-align: center;
+.plan-types {
+  padding-left: 15px;
+  font-weight: bold;
+  color: blue;
 }
-.plan-warning{
-    background-color: yellow;
-    font-weight: bold;
-    color: red;
+.plan-types h4 {
+  text-align: center;
 }
-
-
+.plan-warning {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
 
 /*-------------------------------------------------sign up section*/
-.join-btm{
-    padding: 20px;
-    margin-top: 30px;
+.join-btm {
+  padding: 20px;
+  margin-top: 30px;
 }
-.pass-text{
-    margin-bottom: 20px;
+.pass-text {
+  margin-bottom: 20px;
+}
+.clubname {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  color: #bb2a38;
 }
 /*----------------------------------------------testimonials section*/
-.testimonial{
-    margin: 10px 10px 10px 10px;
-    border: solid 1px rgb(130, 130, 130);
-    padding-left: 15px;
-    display: block;
-
-    /*----------------------------------------------links section*/
-
-
-    
-   
+.testimonial {
+  margin: 10px 10px 10px 10px;
+  border: solid 1px rgb(130, 130, 130);
+  padding-left: 15px;
+  display: block;
+}
+/*----------------------------------------------links section*/
 
 /*-------------------------------------------------footer section*/
 
-.social-media-title{
-    text-align: center;
+.social-media-title {
+  text-align: center;
+  color: white;
 }
-
+.media-links {
+  text-align: center;
+}
+.media-links li a i {
+  width: 60px;
+  height: 60px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 5px;
+  color: #fafafa;
+}
+footer {
+  background-color: #545454;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card a img{
+    align-content: center;
+}
