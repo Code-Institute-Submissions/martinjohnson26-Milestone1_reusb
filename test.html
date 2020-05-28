@@ -16,25 +16,14 @@
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/newstyle.css" type="text/css" />
     <title>Lets Keep Running</title>
   </head>
-
-  <body>
     <header>
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-3 clublogo">
-            <a href="index.html">
-              <img src="assets/images/clublogo.jpg" alt="logo" />
-            </a>
-          </div>
-          <div class="col-9">
-            <h1 class="site-heading text-uppercase">lets keep running</h1>
-          </div>
-        </div>
-      </div>
-      <div>
+        <a href="newindex.html">
+        <h2 id="clublogo">Lets Keep Running</h2>
+        </a>
+        <div>
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
           <a class="navbar-brand" href="index.html">Lets Keep Running</a>
           <button
@@ -66,14 +55,11 @@
           </div>
         </nav>
       </div>
-      
     </header>
-
-    <!-- Home Section-->
     <section>
-      <div class="container-fluid container-home">
-        <div class="home-text text-center">
-          <h2>Couch to 5k........and beyond</h2>
+    <div id="hero-image">
+    <div class="jumbotron">
+    <h2>Couch to 5k........and beyond</h2>
 
           <h2>So you've completed your couch to 5k program</h2>
           <h2>What up next?</h2>
@@ -82,573 +68,47 @@
             Here at LETS KEEP RUNNING we have everything you need for your next
             big challenge
           </h3>
-        </div>
-        <div>
-          <h3 class="text-center">
-            Sign up to our members club and get FREE access to our training
-            plans and running guides
-          </h3>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Us-->
-    <section id="aboutus">
-      <div class="container-fluid container-about">
-        <h2 class="text-center">About Us</h2>
-        <div class="about-text text-center">
-          <p>
-            In 2016 we had never even run for a bus!! . Our health was poor and
-            we knew it was time for a change of lifestyle. We decided to take up
-            the couch to 5k challenge and with a lot of hard work and
-            commitment, nine weeks later we completed our first 5k runs. By now
-            we had the running bug and wanted to do more but didn’t know where
-            to look or get advice.
-          </p>
-          <hr class="block-divide" />
-          <p>
-            We decided to do something about this and formed
-            <strong> LETS KEEP RUNNING </strong> help other new runners find
-            their next challenge and provide support and training plans to
-            achieve their goals.
-          </p>
-          <hr class="block-divide" />
-          <p>
-            We now provide training plans for runners of all levels from
-            beginner to advanced for a multitude of events so why not join us a
-            take your running to the next level.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--Sign Up form-->
-    <section id="signup">
-      <div class="container-fluid container-signup text-center">
-        <h2>Sign Up to</h2>
-        <h2 class="clubname"><strong>LETS KEEP RUNNING</strong></h2>
-        <h2>
-          and get <br />
-          FREE EXCLUSIVE<br />
-          access to our training plans
-        </h2>
-        <div class="about-text text-center">
-          <button
-            class="btn btn-lg btn-success"
-            data-toggle="modal"
-            data-target="#joinclub"
-          >
-            Sign Up
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Training Plans-->
-    <section id="plans">
-      <div class="container-fluid">
-        <h2 class="text-center">
-          Select your training plan
-        </h2>
-      </div>
-
-      <div class="plan-warning alert alert-warning text-center">
-        Training plans are for members only.<br />
-        Please sign in or join our members club
-      </div>
-
-      <div class="container container-plans">
-        <h4 class="text-center text-uppercase">Beginner</h4>
-        <div class="container form-check">
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="beg5k"
-                name="beg5k"
-                value="beg5k"
-              />
-              <label for="beg5k">5K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="beg10k"
-                name="beg10k"
-                value="beg10k"
-              />
-              <label for="beg10k">10K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="beghm"
-                name="beghm"
-                value="beghm"
-              />
-              <label for="beghm">Half Marathon Plan</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="begm"
-                name="begm"
-                value="begm"
-              />
-              <label for="begm">Marathon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="begtri"
-                name="begtri"
-                value="begtri"
-              />
-              <label for="begtri">Triathlon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="begocr"
-                name="begocr"
-                value="begocr"
-              />
-              <label for="begocr">Obstacle Race Plan</label>
-            </div>
-          </div>
-        </div>
-
-        <h4 class="text-center text-uppercase">Intermediate</h4>
-        <div class="container form-check">
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="int5k"
-                name="int5k"
-                value="int5k"
-              />
-              <label for="int5k">5K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="int10k"
-                name="int10k"
-                value="int10k"
-              />
-              <label for="int10k">10K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="inthm"
-                name="inthm"
-                value="inthm"
-              />
-              <label for="inthm">Half Marathon Plan</label>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="intm"
-                name="intm"
-                value="intm"
-              />
-              <label for="intm">Marathon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="inttri"
-                name="inttri"
-                value="inttri"
-              />
-              <label for="inttri">Triathlon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="intocr"
-                name="intocr"
-                value="intocr"
-              />
-              <label for="intocr">Obstacle Race Plan</label>
-            </div>
-          </div>
-        </div>
-        <h4 class="text-center text-uppercase">Advanced</h4>
-        <div class="container form-check">
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="adv5k"
-                name="adv5k"
-                value="adv5k"
-              />
-              <label for="adv5k">5K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="adv10k"
-                name="adv10k"
-                value="adv10k"
-              />
-              <label for="adv10k">10K Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="advhm"
-                name="advhm"
-                value="advhm"
-              />
-              <label for="advhm">Half Marathon Plan</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="advm"
-                name="advm"
-                value="advm"
-              />
-              <label for="advm">Marathon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="advtri"
-                name="advtri"
-                value="advtri"
-              />
-              <label for="advtri">Triathlon Plan</label>
-            </div>
-            <div class="col-4 plan-types">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="advocr"
-                name="advocr"
-                value="advocr"
-              />
-              <label for="advocr">Obstacle Race Plan</label>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="order-button text-center">
-        <button type="submit" class="btn btn-primary">Order your plans</button>
-      </div>
-    </section>
-
-    <!--testamonials-->
-
-    <section id="testimonial">
-      <div class="container-fluid">
-        <h2 class="text-center">
-          Testimonials
-        </h2>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-4">
-            <div class="media testimonial">
-              <div class="col-12 d-sm-inline">
-                <img
-                  src="assets/images/coe.jpg"
-                  alt="coe"
-                  class="rounded-circle float-right"
-                  height="100"
-                  width="100"
-                />
-                <h6>
-                  Being a novice runner, I was interested in improving my
-                  running. Lets keep Running were fully understanding of my
-                  experience level. Their plans were fun, yet challenging and
-                  I've now improved by 5k times by over 10 minutes.
-                </h6>
-                <p class="text-muted">-John Doe May 2017</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-4">
-            <div class="media testimonial">
-              <div class="col-12 d-sm-inline">
-                <img
-                  src="assets/images/rad.jpg"
-                  alt="rad"
-                  class="rounded-circle float-right"
-                  height="100"
-                  width="100"
-                />
-                <h6>
-                  The plans have been awesome for me. I used to start running
-                  and I'd quit within a month 3 or 4 times in a year. The
-                  training plans make a big difference. They keep me motivated
-                  and interested. Thanks Lets Keep Running.
-                </h6>
-                <p class="text-muted">-Jane Doe Dec 2018</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="media testimonial">
-              <div class="col-12d-sm-inline">
-                <img
-                  src="assets/images/kip.jpg"
-                  alt="kip"
-                  class="rounded-circle float-right"
-                  height="100"
-                  width="100"
-                />
-                <h6>
-                  I used Lets Keep Running plans for my first ever marathon. I
-                  loved the plan, checking off each workout every day. Marathon
-                  day came and i finished in just over 4 hours I would highly
-                  recommend Lets Keep Running for all your running requirements.
-                </h6>
-                <p class="text-muted">-Jim Doe Oct 2019</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Links-->
-    <section id="links">
-      <div class="container-fluid">
-        <h2 class="text-center">
-          Links
-        </h2>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-sm-4">
-            <div class="card">
-              <a href="https://www.strava.com/" target="_blank">
-                <img src="assets/images/strava.jpg" alt="Strava" />
-                <h6>Strava</h6>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-4 j">
-            <div class="card">
-              <a href="https://www.parkrun.org.uk/" target="_blank">
-                <img src="assets/images/parkrun.png" alt="Park Run" />
-                <h6>Park Run</h6>
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="card">
-              <a href="https://www.runnersworld.com/uk" target="_blank">
-                <img src="assets/images/runnersworld.png" alt="Runners World" />
-                <h6>Runners World</h6>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-sm-4">
-            <div class="card">
-              <a href="https://thewolfrun.com/" target="_blank">
-                <img src="assets/images/wolfrun.jpg" alt="Wolf Run" />
-                <h6>Wolf Run</h6>
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="card">
-              <a href="https://www.theraceorganiser.com/" target="_blank">
-                <img
-                  src="assets/images/raceorganiser.png"
-                  alt="Race Organiser"
-                />
-                <h6>Race Organiser</h6>
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="card">
-              <a href="https://www.plotaroute.com/routeplanner" target="_blank">
-                <img src="assets/images/route.jpg" alt="Plot A Route" />
-                <h6>Plot A route</h6>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-sm-6">
-            <div class="card">
-              <a href="https://www.triathlonengland.org/" target="_blank">
-                <img
-                  src="assets/images/triathlon.png"
-                  alt="England Triathlon"
-                />
-                <h6>British Triathlon</h6>
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6">
-            <div class="card">
-              <a
-                href="https://www.virginmoneylondonmarathon.com"
-                target="_blank"
-              >
-                <img src="assets/images/marathon.png" alt="London Marathon" />
-                <h6>London Marathon</h6>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Button to Open the Modal -->
-
-    <!-- The Modal -->
-    <div class="modal" id="joinclub">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h5 class="modal-title">Join Lets Keep Running</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <form action="https://formdump.codeinstitute.net/" method="post">
-              <label for="firstname">First Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="firstname"
-                placeholder="First Name"
-              />
-              <label for="lastname">Last Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="lastname"
-                placeholder="Last Name"
-              />
-              <label for="datebirth">Date of Birth</label>
-              <input
-                type="text"
-                class="form-control"
-                id="datebirth"
-                placeholder="DD/MM/YYYY"
-              />
-              <label for="email">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="E-mail Address"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
-              <label for="password1">Password</label>
-              <input
-                type="password"
-                class="form-control"
-                id="password1"
-                placeholder="Please enter a password"
-              />
-              <label for="password2">Re-Enter Password</label>
-              <input
-                type="password"
-                class="form-control"
-                id="password2"
-                placeholder="Please re-enter your password"
-              />
-            </form>
-          </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success">Join Now !!</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
-
+    </div>
+    </section>
+    <section>
+    <div>
+    
+    about us
+    </div>
+    </section>
+    <section>
+    <div>
+    
+    sign up
+    </div>
+    </section>
+    <section>
+    <div>
+    
+    training plans
+    </div>
+    </section>
+    <section>
+    <div>
+    
+    testimonilas
+    </div>
+    </section>
+    <section>
+    <div>
+    
+    links
+    </div>
+    </section>
+    
     <footer>
-      <div>
-        <h4 class="social-media-title text-uppercase">Social Media</h4>
-        <ul class="media-links list-inline">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.twitter.com">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="sr-only">Twitter</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.youtube.com">
-              <i class="fa fa-youtube" aria-hidden="true"></i>
-              <span class="sr-only">YouTube</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+    social media
     </footer>
+<body>
+
+    
+    
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -665,5 +125,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-  </body>
+</body>
 </html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Modak:100,200,300,400,500,600,700");
+
+/*-------------------------------------------------paddings, margins & text*/
+.block-divide {
+  width: 50px;
+  height: 2px;
+  border: 0;
+  background-color: #222222;
+}
+body{
+    font-family: Roboto;
+    color: #666666;
+}
+/*----------------------------------------Header section----*/
+.clublogo{
+    font-size: 200%;
+    color: #bb2a38;
+}
+.navbar navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(50, 53, 238);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+}
+.navbar-brand {
+  font-weight: bolder;
+}
+/*----------------------------------------Hero section----*/
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/runners1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.jumbotron{
+    background-color: transparent;
+    margin-top: 6rem;
+}
+.jumbotron h2,h3{
+    color: #d5d8da;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+
+    .card img{
+    height: 100px;
+    width: 100px;
+}
+/*-------------------------------------------------about section*/
+
+.about-text {
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  border: solid 1px #777777;
+}
+
+.container-about {
+  padding-top: 10px;
+  }
+
+
+/*----------------------------------------training plans section*/
+.plan-warning h6 {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
+
+
+/*----------------------------------------------links section*/
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card a img{
+    align-content: center;
+}

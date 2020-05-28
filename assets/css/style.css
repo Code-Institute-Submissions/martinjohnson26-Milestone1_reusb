@@ -22,6 +22,7 @@
   margin-top: 40px;
 }
 .clublogo {
+
   background: url("../images/clublogo.jpg") no-repeat bottom right fixed;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -34,7 +35,7 @@
 }
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(228, 57, 57);
   position: fixed;
   top: 0;
   width: 100%;
@@ -46,8 +47,15 @@
 
 /*-------------------------------------------------home section*/
 .container-home {
-  background-image: url("../images/runners.jpg");
-  background-size: 100% 100%;
+  height: 100%;
+  background-image: url("../images/runners1.jpg") ;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
 }
 
 .home-text {
@@ -67,13 +75,15 @@
 
 .container-about {
   padding-top: 10px;
-}
+  }
+
 
 /*----------------------------------------training plans section*/
 .form-check {
   margin: 10px 10px 10px 10px;
   border: solid 2px rgb(130, 130, 130);
   padding-left: 2rem;
+  background-color: #bfd8f5;
 }
 .container-plans form-check {
   font: bold;
@@ -86,10 +96,13 @@
 .plan-types h4 {
   text-align: center;
 }
-.plan-warning {
+.plan-warning h6{
   background-color: yellow;
   font-weight: bold;
   color: red;
+}
+#plans{
+ background-color:#f3a81e;   
 }
 
 /*-------------------------------------------------sign up section*/
@@ -105,6 +118,9 @@
   margin: 0;
   font-size: 30px;
   color: #bb2a38;
+}
+#signup{
+    background-color: #7ecfdc;
 }
 /*----------------------------------------------testimonials section*/
 .testimonial {
@@ -142,4 +158,9 @@ footer {
 }
 .card a img{
     align-content: center;
+}
+
+body{
+    font-family: Roboto;
+    color: #666666;
 }
