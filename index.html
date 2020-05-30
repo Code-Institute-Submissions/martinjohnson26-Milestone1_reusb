@@ -19,22 +19,11 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Lets Keep Running</title>
   </head>
-
-  <body>
     <header>
-      <div class="container-fluid container-header">
-        <div class="row">
-          <div class="col-3 clublogo">
-            <a href="index.html">
-              <img src="assets/images/clublogo.jpg" alt="logo" />
-            </a>
-          </div>
-          <div class="col-9">
-            <h1 class="site-heading text-uppercase">lets keep running</h1>
-          </div>
-        </div>
-      </div>
-      <div>
+        <a href="index.html">
+        <h2 id="clublogo">Lets Keep Running</h2>
+        </a>
+        <div>
         <nav class="navbar navbar-expand-sm navbar-dark">
           <a class="navbar-brand" href="index.html">Lets Keep Running</a>
           <button
@@ -67,35 +56,22 @@
         </nav>
       </div>
     </header>
-
-    <!-- Home Section-->
-    <section>
-      <div class="container-fluid container-home">
-       <div class="opaque-overlay">&nbsp;</div>
-        <div class="home-text text-center">
-          <h2>Couch to 5k........and beyond</h2>
-
+    <section id="hero">
+    <div class="container-fluid" id="hero-image">
+    <div class="jumbotron text-center">
+    <h2>Couch to 5k........and beyond</h2>
           <h2>So you've completed your couch to 5k program</h2>
           <h2>What up next?</h2>
-
           <h3>
-            Here at LETS KEEP RUNNING we have everything you need for your next
+            Here at LETS KEEP RUNNING <br> have everything you need for your next
             big challenge
           </h3>
-        </div>
-        <div>
-          <h3 class="text-center">
-            Sign up to our members club and get FREE access to our training
-            plans and running guides
-          </h3>
-        </div>
-      </div>
+    </div>
+    </div>
     </section>
-
-    <!-- About Us-->
-    <section id="aboutus">
+    <section id="aboutus ">
       <div class="container-fluid container-about">
-        <h2 class="text-center">About Us</h2>
+        <h2 class="text-center text-uppercase">About Us</h2>
         <div class="about-text text-center">
           <p>
             In 2016 we had never even run for a bus!! . Our health was poor and
@@ -105,34 +81,55 @@
             we had the running bug and wanted to do more but didn’t know where
             to look or get advice.
           </p>
-          <hr class="block-divide" />
+          <br>
           <p>
             We decided to do something about this and formed
             <strong> LETS KEEP RUNNING </strong> help other new runners find
             their next challenge and provide support and training plans to
             achieve their goals.
           </p>
-          <hr class="block-divide" />
+          <br>
           <p>
             We now provide training plans for runners of all levels from
             beginner to advanced for a multitude of events so why not join us a
             take your running to the next level.
           </p>
         </div>
+        <hr class="block-divide" />
       </div>
+      
     </section>
-
-    <!--Sign Up form-->
     <section id="signup">
-      <div class="container-fluid container-signup text-center">
-        <h2>Sign Up to</h2>
-        <h2 class="clubname"><strong>LETS KEEP RUNNING</strong></h2>
-        <h2>
+    <div class="row">
+    <div class="col-4 signupimages"> <img
+                  src="assets/images/signupimage2.jpg"
+                  alt="signupimage2"
+                  class= "float-right"
+                  height="200"
+                  width="250"
+                />
+    </div>
+    <div class="col-4 container container-signup text-center">
+        <h2 class="text-uppercase signup-title">Sign Up</h2>
+        <p class="clubname">Join <strong>LETS KEEP RUNNING</strong> now</p>
+        <p>
           and get <br />
-          FREE EXCLUSIVE<br />
+          <strong>FREE EXCLUSIVE</strong><br />
           access to our training plans
-        </h2>
-        <div class="about-text text-center">
+        </p>
+    </div>
+        
+      
+      <div class="col-4 signupimages"> <img
+                  src="assets/images/signupimage1.jpg"
+                  alt="signupimage1"
+                  class= "float-left"
+                  height="200"
+                  width="250"
+                />
+      </div>
+      </div>
+      <div class="signup-button text-center">
           <button
             class="btn btn-lg btn-success"
             data-toggle="modal"
@@ -141,23 +138,23 @@
             Sign Up
           </button>
         </div>
-      </div>
+      <hr class="block-divide" />
     </section>
 
     <!-- Training Plans-->
     <section id="plans">
-      <div class="container-fluid">
-        <h2 class="text-center">
+      <div class="container-fluid container-plans">
+        <h2 class="text-center text-uppercase">
           Select your training plan
         </h2>
       </div>
-
-      <div class="plan-warning alert alert-warning text-center">
-      <h6>
-        Training plans are for members only.
-        Please sign in or join our members club</h6>
+    <div class="row">
+      <div class="col-6 offset-3 plan-warning alert  text-center">
+        <h5>Training plans are for members only.<br>
+        Please sign in or join our members club
+        </h5>
       </div>
-
+    </div>
       <div class="container container-plans">
         <h4 class="text-center text-uppercase">Beginner</h4>
         <div class="container form-check">
@@ -366,20 +363,21 @@
       <div class="order-button text-center">
         <button type="submit" class="btn btn-primary">Order your plans</button>
       </div>
+      <hr class="block-divide" />
     </section>
 
     <!--testamonials-->
 
     <section id="testimonial">
-      <div class="container-fluid">
-        <h2 class="text-center">
+      <div class="container-fluid container-testimonials">
+        <h2 class="text-center text-uppercase">
           Testimonials
         </h2>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-4">
-            <div class="media testimonial">
+            <div class="media member-testimonial">
               <div class="col-12 d-sm-inline">
                 <img
                   src="assets/images/coe.jpg"
@@ -400,7 +398,7 @@
           </div>
 
           <div class="col-12 col-sm-4">
-            <div class="media testimonial">
+            <div class="media member-testimonial">
               <div class="col-12 d-sm-inline">
                 <img
                   src="assets/images/rad.jpg"
@@ -420,7 +418,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-4">
-            <div class="media testimonial">
+            <div class="media member-testimonial">
               <div class="col-12d-sm-inline">
                 <img
                   src="assets/images/kip.jpg"
@@ -435,18 +433,19 @@
                   day came and i finished in just over 4 hours I would highly
                   recommend Lets Keep Running for all your running requirements.
                 </h6>
-                <p class="text-muted">-Jim Doe Oct 2019</p>
+                <p class="text-muted"><br>-Jim Doe Oct 2019</p>
               </div>
             </div>
           </div>
         </div>
+        <hr class="block-divide" />
       </div>
     </section>
 
     <!--Links-->
     <section id="links">
-      <div class="container-fluid">
-        <h2 class="text-center">
+      <div class="container-fluid container-links">
+        <h2 class="text-center text-uppercase">
           Links
         </h2>
       </div>
@@ -651,6 +650,11 @@
       </div>
     </footer>
 
+<body>
+
+    
+    
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -666,5 +670,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-  </body>
+</body>
 </html>

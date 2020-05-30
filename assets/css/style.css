@@ -2,40 +2,26 @@
 
 /*-------------------------------------------------paddings, margins & text*/
 .block-divide {
-  width: 50px;
-  height: 2px;
+  width: 400px;
+  height: 4px;
   border: 0;
-  background-color: #222222;
+  background-color: rgb(50, 53, 238);
 }
-
-/*-------------------------------------------------colours*/
-
-/*-------------------------------------------------header section*/
-.site-heading {
-  text-align: center;
-  letter-spacing: 2px;
-  margin: 0;
-  font-family: Modak, sans-serif;
-  font-size: 100px;
-  color: #bb2a38;
-  padding-top: 50px;
-  margin-top: 40px;
+body{
+    font-family: Roboto;
+    color: #666666;
 }
-.clublogo {
-
-  background: url("../images/clublogo.jpg") no-repeat bottom right fixed;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  width: auto;
-  padding-top: 50px;
+/*----------------------------------------Header section----*/
+.clublogo{
+    font-size: 200%;
+    color: #bb2a38;
 }
-
 .navbar navbar-toggler-icon {
   color: rgba(0, 0, 0, 0.5);
 }
 .navbar {
   overflow: hidden;
-  background-color: rgb(228, 57, 57);
+  background-color: rgb(50, 53, 238);
   position: fixed;
   top: 0;
   width: 100%;
@@ -44,113 +30,118 @@
 .navbar-brand {
   font-weight: bolder;
 }
-
-/*-------------------------------------------------home section*/
-.container-home {
-  height: 100%;
-  background-image: url("../images/runners1.jpg") ;
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
+/*----------------------------------------Hero section----*/
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/runners1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
 }
 
-.home-text {
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-  color: #fafafa;
+
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);}
+    to {
+        transform: scale(1.4);}
+    from{
+        transform: scale(1.4);}
+    to {
+        transform: scale(1);}
+ }
+
+.jumbotron{
+    background-color: rgba(241, 197, 197, 0.5);
+    margin-top: 6rem;
+    a
+}
+.jumbotron h2,h3{
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    }
+
+    .card img{
+    height: 100px;
+    width: 100px;
 }
 /*-------------------------------------------------about section*/
-
+#aboutus{
+    margin-bottom: 40px;
+}
+.container-about h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
+}
 .about-text {
   margin: 10px;
   padding: 10px 20px 10px 20px;
-  border: solid 1px #777777;
+ 
 }
 
 .container-about {
   padding-top: 10px;
   }
+  /*-------------------------------------------------sign up section*/
+#signup{
+    margin-bottom: 40px;
+}
+.container-signup h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
+}
+
 
 
 /*----------------------------------------training plans section*/
+#plans{
+    margin-bottom: 40px;
+    }
+.container-plans h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
+}
+
+.plan-warning h5 {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+}
 .form-check {
   margin: 10px 10px 10px 10px;
   border: solid 2px rgb(130, 130, 130);
   padding-left: 2rem;
   background-color: #bfd8f5;
 }
-.container-plans form-check {
-  font: bold;
+/*----------------------------------------testimonials section*/
+#testimonial{
+    margin-bottom: 40px;
 }
-.plan-types {
-  padding-left: 15px;
-  font-weight: bold;
-  color: blue;
+.container-testimonials h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
 }
-.plan-types h4 {
-  text-align: center;
-}
-.plan-warning h6{
-  background-color: yellow;
-  font-weight: bold;
-  color: red;
-}
-#plans{
- background-color:#f3a81e;   
-}
-
-/*-------------------------------------------------sign up section*/
-.join-btm {
-  padding: 20px;
-  margin-top: 30px;
-}
-.pass-text {
-  margin-bottom: 20px;
-}
-.clubname {
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  color: #bb2a38;
-}
-#signup{
-    background-color: #7ecfdc;
-}
-/*----------------------------------------------testimonials section*/
-.testimonial {
+.member-testimonial {
   margin: 10px 10px 10px 10px;
   border: solid 1px rgb(130, 130, 130);
   padding-left: 15px;
   display: block;
 }
 /*----------------------------------------------links section*/
-
-/*-------------------------------------------------footer section*/
-
-.social-media-title {
-  text-align: center;
-  color: white;
+#links{
+    margin-bottom: 40px;
 }
-.media-links {
-  text-align: center;
-}
-.media-links li a i {
-  width: 60px;
-  height: 60px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 20px;
-  line-height: 5px;
-  color: #fafafa;
-}
-footer {
-  background-color: #545454;
+.container-links h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
 }
 .card img{
     height: 100px;
@@ -160,7 +151,4 @@ footer {
     align-content: center;
 }
 
-body{
-    font-family: Roboto;
-    color: #666666;
-}
+/*----------------------------------------------gallery section*/
