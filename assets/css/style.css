@@ -10,6 +10,7 @@
 body{
     font-family: Roboto;
     color: #666666;
+    background-color: #eaeaea;
 }
 /*----------------------------------------Header section----*/
 .clublogo{
@@ -41,27 +42,23 @@ body{
     background-attachment: fixed;
     overflow: hidden;
     animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
     
 }
 
 
 @keyframes hero-zoom{
     from{
-        transform: scale(1);}
-    to {
-        transform: scale(1.4);}
-    from{
         transform: scale(1.4);}
     to {
         transform: scale(1);}
- }
+     }
 
 .jumbotron{
     background-color: rgba(241, 197, 197, 0.5);
     margin-top: 6rem;
-    a
+    
 }
 .jumbotron h2,h3{
     color: whitesmoke;
@@ -104,7 +101,8 @@ body{
 /*----------------------------------------training plans section*/
 #plans{
     margin-bottom: 40px;
-    }
+    
+    
 .container-plans h2{
     letter-spacing: 5px;
     color: rgb(50, 53, 238);
@@ -152,3 +150,13 @@ body{
 }
 
 /*----------------------------------------------gallery section*/
+
+/*------------------------------------------social media section*/
+.social-media{
+    background-color: rgb(50, 53, 238);
+    color: whitesmoke;
+}
+
+.social-media i{
+    font-size: 150%;
+    padding: 5px 10px 5px 10px;
