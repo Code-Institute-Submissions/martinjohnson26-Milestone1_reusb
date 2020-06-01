@@ -42,9 +42,8 @@ body{
     background-attachment: fixed;
     overflow: hidden;
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: backwards;
-    
 }
 
 
@@ -101,7 +100,7 @@ body{
 /*----------------------------------------training plans section*/
 #plans{
     margin-bottom: 40px;
-    
+}   
     
 .container-plans h2{
     letter-spacing: 5px;
@@ -111,13 +110,21 @@ body{
 .plan-warning h5 {
   background-color: yellow;
   font-weight: bold;
-  color: red;
+  color: rgb(50, 53, 238);
 }
 .form-check {
   margin: 10px 10px 10px 10px;
   border: solid 2px rgb(130, 130, 130);
   padding-left: 2rem;
   background-color: #bfd8f5;
+}
+.shoeimages{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.order-button{
+    padding-bottom: 10px;
+    padding-top:10px;
 }
 /*----------------------------------------testimonials section*/
 #testimonial{
@@ -156,7 +163,16 @@ body{
     background-color: rgb(50, 53, 238);
     color: whitesmoke;
 }
-
 .social-media i{
-    font-size: 150%;
     padding: 5px 10px 5px 10px;
+    color: whitesmoke;
+    font-size: 150%;
+}
+.social-media i:hover{
+    background: red;
+    font-size: 200%;
+}
+    
+.social-media-title{
+    letter-spacing: 2px;
+}
