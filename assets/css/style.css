@@ -55,12 +55,12 @@ body{
      }
 
 .jumbotron{
-    background-color: rgba(241, 197, 197, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     margin-top: 6rem;
     
 }
 .jumbotron h2,h3{
-    color: whitesmoke;
+    color: #011111;
     font-weight: bolder;
     margin-bottom: 30px;
     }
@@ -157,6 +157,22 @@ body{
 }
 
 /*----------------------------------------------gallery section*/
+#gallery{
+    margin-bottom: 40px;
+}
+container-gallery h2{
+    letter-spacing: 5px;
+    color: rgb(50, 53, 238);
+}
+.galleryimages{
+    line-height: 0;
+    column-count: 3;
+}
+.galleryimages img{
+    width: 100%
+}
+
+
 
 /*------------------------------------------social media section*/
 .social-media{
