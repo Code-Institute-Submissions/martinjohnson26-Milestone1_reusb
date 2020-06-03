@@ -148,19 +148,28 @@ body{
     letter-spacing: 5px;
     color: rgb(50, 53, 238);
 }
+.card{
+    background: inherit;
+    border: none;
+}
 .card img{
     height: 100px;
     width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-.card a img{
-    align-content: center;
+.card a{
+    text-align: center;
+    color: inherit;
 }
+
 
 /*----------------------------------------------gallery section*/
 #gallery{
     margin-bottom: 40px;
 }
-container-gallery h2{
+.container-gallery h2{
     letter-spacing: 5px;
     color: rgb(50, 53, 238);
 }
@@ -169,7 +178,7 @@ container-gallery h2{
     column-count: 3;
 }
 .galleryimages img{
-    width: 100%
+    width: 100%;
 }
 
 
@@ -182,7 +191,8 @@ container-gallery h2{
 .social-media i{
     padding: 5px 10px 5px 10px;
     color: whitesmoke;
-    font-size: 150%;
+    font-size: 130%;
+    padding-left: 10px;
 }
 .social-media i:hover{
     background: red;
@@ -190,5 +200,10 @@ container-gallery h2{
 }
     
 .social-media-title{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+.contact-us{
+    background-color: rgb(50, 53, 238);
+    color: whitesmoke;
+    padding-right: 10px;
 }
