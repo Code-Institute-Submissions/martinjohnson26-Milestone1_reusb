@@ -13,10 +13,7 @@ body{
     background-color: #eaeaea;
 }
 /*----------------------------------------Header section----*/
-.clublogo{
-    font-size: 200%;
-    color: #bb2a38;
-}
+
 .navbar navbar-toggler-icon {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -44,8 +41,12 @@ body{
     animation-name: hero-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
+    opacity: 0.7;
 }
 
+#hero-image button-success{
+    padding-top: 30px;
+}
 
 @keyframes hero-zoom{
     from{
@@ -54,24 +55,20 @@ body{
         transform: scale(1);}
      }
 
-.jumbotron{
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-top: 6rem;
-    
-}
-.jumbotron h2,h3{
-    color: #011111;
+
+.container-hero h1{
+    color: #fff;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 45px;
     }
 
-    .card img{
-    height: 100px;
-    width: 100px;
-}
+ 
 /*-------------------------------------------------about section*/
-#aboutus{
+#about{
     margin-bottom: 40px;
+    padding-top: 60px;
 }
 .container-about h2{
     letter-spacing: 5px;
@@ -100,6 +97,7 @@ body{
 /*----------------------------------------training plans section*/
 #plans{
     margin-bottom: 40px;
+    padding-top: 60px;
 }   
     
 .container-plans h2{
@@ -107,8 +105,8 @@ body{
     color: rgb(50, 53, 238);
 }
 
-.plan-warning h5 {
-  background-color: yellow;
+.plan-warning{
+  
   font-weight: bold;
   color: rgb(50, 53, 238);
 }
@@ -140,11 +138,12 @@ body{
   padding-left: 15px;
   display: block;
 }
-/*----------------------------------------------links section*/
-#links{
+/*----------------------------------------------clubs section*/
+#clubs{
     margin-bottom: 40px;
+    padding-top: 60px;
 }
-.container-links h2{
+.container-clubs h2{
     letter-spacing: 5px;
     color: rgb(50, 53, 238);
 }
