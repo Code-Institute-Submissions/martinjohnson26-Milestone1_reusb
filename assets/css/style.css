@@ -67,7 +67,7 @@ body{
  
 /*-------------------------------------------------about section*/
 #about{
-    margin-bottom: 40px;
+    
     padding-top: 60px;
 }
 .container-about h2{
@@ -126,7 +126,8 @@ body{
 }
 /*----------------------------------------testimonials section*/
 #testimonial{
-    margin-bottom: 40px;
+
+    padding-top: 30px;
 }
 .container-testimonials h2{
     letter-spacing: 5px;
@@ -138,10 +139,14 @@ body{
   padding-left: 15px;
   display: block;
 }
+.media img{
+    padding-top: 10px;
+    padding-right: 5px;
+}
 /*----------------------------------------------clubs section*/
 #clubs{
     margin-bottom: 40px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .container-clubs h2{
     letter-spacing: 5px;
@@ -167,6 +172,7 @@ body{
 /*----------------------------------------------gallery section*/
 #gallery{
     margin-bottom: 40px;
+    padding-top: 30px;
 }
 .container-gallery h2{
     letter-spacing: 5px;
@@ -186,12 +192,13 @@ body{
 .social-media{
     background-color: rgb(50, 53, 238);
     color: whitesmoke;
+    
 }
 .social-media i{
     padding: 5px 10px 5px 10px;
     color: whitesmoke;
     font-size: 130%;
-    padding-left: 10px;
+    
 }
 .social-media i:hover{
     background: red;
@@ -200,9 +207,20 @@ body{
     
 .social-media-title{
     letter-spacing: 1px;
+    font-size: 16px;
+    padding-right: 25px;
 }
 .contact-us{
     background-color: rgb(50, 53, 238);
     color: whitesmoke;
-    padding-right: 10px;
+    padding-left: 45px;
+    
+}
+.contact-us h5{
+    margin-bottom: 2px;
+    font-size: 16px;
+
+}
+.contact-us p{
+    font-size: 12px;
 }
