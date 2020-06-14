@@ -7,16 +7,19 @@
   border: 0;
   background-color: rgb(50, 53, 238);
 }
-body{
-    font-family: Roboto;
-    color: #666666;
-    background-color: #eaeaea;
+
+body {
+  font-family: Roboto;
+  color: #666666;
+  background-color: #eaeaea;
 }
+
 /*----------------------------------------Header section----*/
 
 .navbar navbar-toggler-icon {
   color: rgba(0, 0, 0, 0.5);
 }
+
 .navbar {
   overflow: hidden;
   background-color: rgb(50, 53, 238);
@@ -25,202 +28,209 @@ body{
   width: 100%;
   float: right;
 }
+
 .navbar-brand {
   font-weight: bolder;
 }
+
 /*----------------------------------------Hero section----*/
-#hero-image{
-    height: 600px;
-    width: 100%;
-    background-image: url("../images/runners1.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    animation-name: hero-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-    opacity: 0.7;
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background-image: url("../images/runners1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  animation-name: hero-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  opacity: 0.7;
 }
 
-#hero-image button-success{
-    padding-top: 30px;
+#hero-image button-success {
+  padding-top: 30px;
 }
 
-@keyframes hero-zoom{
-    from{
-        transform: scale(1.4);}
-    to {
-        transform: scale(1);}
-     }
+@keyframes hero-zoom {
+  from {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 
+.container-hero h1 {
+  color: #fff;
+  font-weight: bolder;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 45px;
+}
 
-.container-hero h1{
-    color: #fff;
-    font-weight: bolder;
-    margin: auto;
-    padding-top: 150px;
-    padding-bottom: 45px;
-    }
-
- 
 /*-------------------------------------------------about section*/
-#about{
-    
-    padding-top: 60px;
+
+#about {
+  padding-top: 60px;
 }
-.container-about h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
+
+.container-about h2 {
+  letter-spacing: 5px;
+  color: rgb(50, 53, 238);
 }
+
 .about-text {
   margin: 10px;
   padding: 10px 20px 10px 20px;
- 
 }
 
 .container-about {
   padding-top: 10px;
-  }
-  /*-------------------------------------------------sign up section*/
-#signup{
-    margin-bottom: 40px;
 }
-.container-signup h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
-}
-
-
 
 /*----------------------------------------training plans section*/
-#plans{
-    margin-bottom: 40px;
-    padding-top: 60px;
-}   
-    
-.container-plans h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
+
+#plans {
+  margin-bottom: 40px;
+  padding-top: 60px;
 }
 
-.plan-warning{
-  
+.container-plans h2 {
+  letter-spacing: 5px;
+  color: rgb(50, 53, 238);
+}
+
+.plan-warning {
   font-weight: bold;
   color: rgb(50, 53, 238);
 }
+
 .form-check {
   margin: 10px 10px 10px 10px;
   border: solid 2px rgb(130, 130, 130);
   padding-left: 2rem;
   background-color: #bfd8f5;
 }
-.shoeimages{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.order-button{
-    padding-bottom: 10px;
-    padding-top:10px;
-}
-/*----------------------------------------testimonials section*/
-#testimonial{
 
-    padding-top: 30px;
+/*----------------------------------------testimonials section*/
+
+#testimonial {
+  padding-top: 30px;
 }
-.container-testimonials h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
+
+.container-testimonials h2 {
+  letter-spacing: 5px;
+  color: rgb(50, 53, 238);
 }
+
 .member-testimonial {
   margin: 10px 10px 10px 10px;
   border: solid 1px rgb(130, 130, 130);
   padding-left: 15px;
   display: block;
 }
-.media img{
-    padding-top: 10px;
-    padding-right: 5px;
-}
-/*----------------------------------------------clubs section*/
-#clubs{
-    margin-bottom: 40px;
-    padding-top: 30px;
-}
-.container-clubs h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
-}
-.card{
-    background: inherit;
-    border: none;
-}
-.card img{
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.card a{
-    text-align: center;
-    color: inherit;
+
+.media img {
+  padding-top: 10px;
+  padding-right: 5px;
 }
 
+/*----------------------------------------------clubs section*/
+
+#clubs {
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.container-clubs h2 {
+  letter-spacing: 5px;
+  color: rgb(50, 53, 238);
+}
+
+.card {
+  background: inherit;
+  border: none;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card a {
+  text-align: center;
+  color: inherit;
+}
 
 /*----------------------------------------------gallery section*/
-#gallery{
-    margin-bottom: 40px;
-    padding-top: 30px;
-}
-.container-gallery h2{
-    letter-spacing: 5px;
-    color: rgb(50, 53, 238);
-}
-.galleryimages{
-    line-height: 0;
-    column-count: 3;
-}
-.galleryimages img{
-    width: 100%;
+
+#gallery {
+  margin-bottom: 40px;
+  padding-top: 30px;
 }
 
+.container-gallery h2 {
+  letter-spacing: 5px;
+  color: rgb(50, 53, 238);
+}
 
+.galleryimages {
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0;
+}
+@media screen and (max-width: 800px) {
+    .galleryimages {
+     column-count:2;
+    }
+  }
+
+.galleryimages img {
+  width: 100%;
+}
 
 /*------------------------------------------social media section*/
-.social-media{
-    background-color: rgb(50, 53, 238);
-    color: whitesmoke;
-    
-}
-.social-media i{
-    padding: 5px 10px 5px 10px;
-    color: whitesmoke;
-    font-size: 130%;
-    
-}
-.social-media i:hover{
-    background: red;
-    font-size: 200%;
-}
-    
-.social-media-title{
-    letter-spacing: 1px;
-    font-size: 16px;
-    padding-right: 25px;
-}
-.contact-us{
-    background-color: rgb(50, 53, 238);
-    color: whitesmoke;
-    padding-left: 45px;
-    
-}
-.contact-us h5{
-    margin-bottom: 2px;
-    font-size: 16px;
 
+.social-media {
+  background-color: rgb(50, 53, 238);
+  color: whitesmoke;
 }
-.contact-us p{
-    font-size: 12px;
+
+.social-media i {
+  padding: 5px 10px 5px 10px;
+  color: whitesmoke;
+  font-size: 130%;
+  margin: auto;
+}
+
+.social-media i:hover {
+  background: red;
+  font-size: 200%;
+}
+
+.social-media-title {
+  letter-spacing: 1px;
+  font-size: 16px;
+ }
+
+.contact-us {
+  background-color: rgb(50, 53, 238);
+  color: whitesmoke;
+  padding-left: 45px;
+  margin: auto;
+}
+
+.contact-us h5 {
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.contact-us p {
+  font-size: 12px;
 }
