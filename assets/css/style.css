@@ -50,7 +50,18 @@ body {
   animation-fill-mode: backwards;
   opacity: 0.8;
   }
- 
+ .overlay{
+     position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #343a407d;
+ }
 
 #hero-image button-success {
   padding-top: 30px;
@@ -65,7 +76,7 @@ body {
   }
 }
 
-.container-hero h1 {
+.hero-title{
   color: #fff;
   font-weight: bolder;
   margin: auto;
@@ -103,7 +114,7 @@ body {
 
 .container-plans h2 {
   letter-spacing: 5px;
-  color: rgb(50, 53, 238);
+  
 }
 .container-plans h4 {
   margin-top: 10px;
