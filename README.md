@@ -124,6 +124,8 @@ Slack community for support and advice during the construction of the site
 
 Code Institute tutors or support and advice during the construction of the site
 
+Code Institute coursework for reference
+
 Oluwafemi Medale (CI Mentor) For help, support, advice and positive feedback from the initail inception of the site through to completion
 
 
