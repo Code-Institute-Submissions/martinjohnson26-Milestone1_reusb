@@ -1,20 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
-/*-------------------------------------------------paddings, margins & text*/
-.block-divide {
-  width: 400px;
-  height: 4px;
-  border: 0;
-  background-color: rgb(50, 53, 238);
-}
 
-body {
-  font-family: Roboto;
-  color: #666666;
-  background-color: #eaeaea;
-}
-
-/*----------------------------------------Header section----*/
+/*------------Header section------------------------------------------*/
 
 .navbar navbar-toggler-icon {
   color: rgba(0, 0, 0, 0.5);
@@ -34,7 +21,14 @@ body {
   font-weight: bolder;
 }
 
-/*----------------------------------------Hero section----*/
+/*------------Body section--------------------------------------------*/
+
+body {
+  color: #666666;
+  background-color: #eaeaea;
+}
+
+/*------------hero section-------------------------------------------*/
 
 #hero-image {
   height: 600px;
@@ -50,6 +44,7 @@ body {
   animation-fill-mode: backwards;
   opacity: 0.8;
   }
+
  .overlay{
      position: absolute;
     top: 0;
@@ -62,10 +57,6 @@ body {
     transition: .5s ease;
     background-color: #343a407d;
  }
-
-#hero-image button-success {
-  padding-top: 30px;
-}
 
     @keyframes hero-zoom {
   from {
@@ -84,7 +75,7 @@ body {
   padding-bottom: 45px;
 }
 
-/*-------------------------------------------------about section*/
+/*-----------about section----------------------------------------------*/
 
 #about {
   margin-bottom: 20px;
@@ -93,19 +84,14 @@ body {
 
 .container-about h2 {
   letter-spacing: 5px;
-  color: rgb(50, 53, 238);
-}
+ }
 
 .about-text {
   margin: 10px;
   padding: 10px 20px 10px 20px;
 }
 
-.container-about {
-  padding-top: 10px;
-}
-
-/*----------------------------------------training plans section*/
+/*------------plans section---------------------------------------------*/
 
 #plans {
   margin-bottom: 20px;
@@ -114,16 +100,6 @@ body {
 
 .container-plans h2 {
   letter-spacing: 5px;
-  
-}
-.container-plans h4 {
-  margin-top: 10px;
-}
-
-.plan-warning {
-  font-weight: bold;
-  color: rgb(50, 53, 238);
-  margin-bottom: 0px;
 }
 
 .form-check {
@@ -132,21 +108,12 @@ body {
   padding-left: 2rem;
   background-color: #bfd8f5;
 }
-.alert{
-    padding-bottom:5px;
-}
 
-
-/*----------------------------------------testimonials section*/
-
-#testimonial {
-  padding-top: 30px;
-}
+/*------------testimonials section----------------------------------------*/
 
 .container-testimonials h2 {
   letter-spacing: 5px;
-  color: rgb(50, 53, 238);
-}
+ }
 
 .member-testimonial {
   margin: 10px 10px 10px 10px;
@@ -159,17 +126,10 @@ body {
   padding-top: 10px;
   padding-right: 5px;
 }
-
-/*----------------------------------------------clubs section*/
-
-#clubs {
-  margin-bottom: 20px;
-  padding-top: 60px;
-}
+/*-------------clubs section-----------------------------------------------*/
 
 .container-clubs h2 {
   letter-spacing: 5px;
-  color: rgb(50, 53, 238);
   margin-top: 10px;
 }
 
@@ -191,7 +151,7 @@ body {
   color: inherit;
 }
 
-/*----------------------------------------------gallery section*/
+/*------------gallery section----------------------------------------------*/
 
 #gallery {
   margin-bottom: 40px;
@@ -200,7 +160,6 @@ body {
 
 .container-gallery h2 {
   letter-spacing: 5px;
-  color: rgb(50, 53, 238);
 }
 
 .galleryimages {
@@ -208,24 +167,25 @@ body {
   column-count: 3;
   column-gap: 0;
 }
+
+.galleryimages img {
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
     .galleryimages {
      column-count:2;
     }
   }
 
-.galleryimages img {
-  width: 100%;
-}
+/*-------------social media section-----------------------------------------*/
 
-/*------------------------------------------social media section*/
-
-.social-media {
-  background-color: rgb(50, 53, 238);
+.media-contact {
+  background-color:  #343a40;
   color: whitesmoke;
 }
 
-.social-media i {
+.media-contact i {
   padding: 5px 10px 5px 10px;
   color: whitesmoke;
   font-size: 130%;
@@ -235,28 +195,17 @@ body {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.social-media i:hover {
+.media-contact i:hover {
   background: red;
-  font-size: 200%;
+  font-size: 180%;
 }
 
-.social-media-title {
-  letter-spacing: 1px;
-  font-size: 16px;
- }
-
-.contact-us {
-  background-color: rgb(50, 53, 238);
-  color: whitesmoke;
-  padding-left: 45px;
-  margin: auto;
-}
-
-.contact-us h5 {
+.media-contact h5 {
   margin-bottom: 2px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
-.contact-us p {
+.media-contact p {
   font-size: 12px;
 }

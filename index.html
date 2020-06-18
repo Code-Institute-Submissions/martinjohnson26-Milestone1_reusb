@@ -12,23 +12,19 @@
       rel="stylesheet"
       href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Lets Keep Running</title>
   </head>
   <body>
     <header>
-      <div >
+      <div>
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
           <a class="navbar-brand" href="#hero">Lets Keep Running</a>
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#collapsibleNavbar"
+            data-target="#collapsieNavbar"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,30 +50,33 @@
         </nav>
       </div>
     </header>
-    <!-- Hero Image-->
-    <section id="hero">
-      <div class="container-fluid container-hero text-center" id="hero-image">
 
-        
-      </div>
+    <!----------- hero Image --------------------------------------------->
+    <section id="hero">
+      <div
+        class="container-fluid container-hero text-center"
+        id="hero-image"
+      ></div>
       <div class="overlay">
-      <div class="text-center"><h1 class="hero-title">
-          LETS KEEP RUNNING <br />
-          Everything for your next big challenge
-        </h1>
-        <button
-          class="btn btn-lg btn-dark"
-          data-toggle="modal"
-          data-target="#joinclub"
-        >
-          Sign Up
-        </button>
-      </div>
+        <div class="text-center">
+          <h1 class="hero-title">
+            LETS KEEP RUNNING <br />
+            Everything for your next big challenge
+          </h1>
+          <button
+            class="btn btn-lg btn-dark"
+            data-toggle="modal"
+            data-target="#joinclub"
+          >
+            Sign Up
+          </button>
+        </div>
       </div>
     </section>
-    <!-- about-->
+
+    <!----------- about section ----------------------------------------->
     <section id="about">
-      <div class="container-fluid container-about">
+      <div class="container-fluid container-about py-2">
         <h2 class="text-center text-uppercase">about</h2>
         <div class="about-text text-center">
           <p>
@@ -104,9 +103,10 @@
         </div>
       </div>
     </section>
-    <!--testamonials-->
+
+    <!----------- testimonial section ------------------------------------>
     <section id="testimonial">
-      <div class="container-fluid container-testimonials">
+      <div class="container-fluid container-testimonials py-2">
         <h2 class="text-center text-uppercase">
           Testimonials
         </h2>
@@ -125,9 +125,9 @@
                 />
                 <h6>
                   Being a novice runner, I was interested in improving my
-                  running. Lets keep Running fully understood my
-                  experience level. Their plans were fun, yet challenging and
-                  I've now improved by 5k times by over 10 minutes.
+                  running. Lets keep Running fully understood my experience
+                  level. Their plans were fun, yet challenging and I've now
+                  improved by 5k times by over 10 minutes.
                 </h6>
                 <p class="text-muted">-John Doe May 2017</p>
               </div>
@@ -166,9 +166,9 @@
                 />
                 <h6>
                   I used Lets Keep Running plans for my first ever marathon. I
-                 checked off each workout every day. Marathon day came and i 
-                 finished in just over 4 hours I would highly
-                  recommend Lets Keep Running for all your running requirements.
+                  checked off each workout every day. Marathon day came and i
+                  finished in just over 4 hours I would highly recommend Lets
+                  Keep Running for all your running requirements.
                 </h6>
                 <p class="text-muted">-Jim Doe Oct 2019</p>
               </div>
@@ -177,31 +177,24 @@
         </div>
       </div>
     </section>
-    <!-- Training Plans-->
+
+   <!------------ plans section ------------------------------------------>
     <section id="plans">
-      <div class="container-fluid container-plans">
+      <div class="container-fluid container-plans py-2">
         <h2 class="text-center text-uppercase">
           Plans
         </h2>
       </div>
-      <div class="plan-warning alert text-center">
+      <div class="plan-warning text-center">
         <h5>
-          <em>
+          <em class="font-weight-normal">
             Plans are for members only. Please sign in or join our members
-            club</em>
+            club</em
+          >
         </h5>
       </div>
-       <div class="signup-button text-center">
-        <button
-          class="btn btn-lg btn-dark"
-          data-toggle="modal"
-          data-target="#joinclub"
-        >
-          Sign Up
-        </button>
-      </div>
       <div class="container container-plans">
-        <h4 class="text-center text-uppercase">Beginner</h4>
+        <h5 class="text-center text-uppercase">Beginner</h5>
         <div class="container form-check">
           <div class="row">
             <div class="col-4 plan-types">
@@ -268,7 +261,7 @@
             </div>
           </div>
         </div>
-        <h4 class="text-center text-uppercase">Intermediate</h4>
+        <h5 class="text-center text-uppercase">Intermediate</h5>
         <div class="container form-check">
           <div class="row">
             <div class="col-4 plan-types">
@@ -335,7 +328,7 @@
             </div>
           </div>
         </div>
-        <h4 class="text-center text-uppercase">Advanced</h4>
+        <h5 class="text-center text-uppercase">Advanced</h5>
         <div class="container form-check">
           <div class="row">
             <div class="col-4 plan-types">
@@ -404,16 +397,16 @@
         </div>
       </div>
       <div class="container container-signup text-center">
-        <p class="clubname">Join <strong>LETS KEEP RUNNING</strong> now
-          and get <strong>FREE EXCLUSIVE</strong> access to our
-          training plans
+        <p class="clubname pt-2">
+          Join <strong>LETS KEEP RUNNING</strong> now and get
+          <strong>FREE EXCLUSIVE</strong> access to our training plans
         </p>
       </div>
-     
     </section>
-    <!--clubs-->
+
+    <!----------- clubs section ------------------------------------------>
     <section id="clubs">
-      <div class="container-fluid container-clubs">
+      <div class="container-fluid container-clubs py-2">
         <h2 class="text-center text-uppercase">
           Clubs
         </h2>
@@ -479,12 +472,12 @@
         </div>
       </div>
     </section>
- 
-    <!-- The Modal -->
+
+    <!------------ The Modal --------------------------------------------->
     <div class="modal" id="joinclub">
       <div class="modal-dialog">
         <div class="modal-content">
-          <!-- Modal Header -->
+          <!------ Modal Header ----------------------------------------->
           <div class="modal-header">
             <h5 class="modal-title">Join Lets Keep Running</h5>
             <button
@@ -496,7 +489,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <!-- Modal body -->
+          <!------ Modal body -------------------------------------------->
           <div class="modal-body">
             <form action="https://formdump.codeinstitute.net/" method="post">
               <label for="firstname">First Name</label>
@@ -557,15 +550,18 @@
       </div>
     </div>
 
+    <!----------- footer ------------------------------------------>
     <footer>
-      <div class="row pt-4 row-no-gutters">
-        <div class="col-md-6 contact-us text-center">
+      <div class="media-contact row row-no-gutters py-1">
+        <div class="col-md-6 text-uppercase text-center">
           <h5>Contact Us</h5>
-          <p>Running Head Office, Running Street <br>
-             Running Town, RU1 23N<br>
-             0121 123 456</p>
+          <p class="mb-1">
+            Running Head Office, Running Street <br />
+            Running Town, RU1 23N<br />
+            0121 123 456
+          </p>
         </div>
-        <div class="col-md-6 social-media text-center">
+        <div class="col-md-6 text-center">
           <h5 class="social-media-title text-uppercase">Social Media</h5>
           <ul class="media-links list-inline">
             <li class="list-inline-item">
