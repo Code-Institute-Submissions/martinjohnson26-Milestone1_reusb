@@ -28,53 +28,53 @@ range of different running events.
     -   #### Frequent users
 
         1.  Check to see if any additional and/or new training plans have been added
-        2.  Add my own testimonials
-        3.  Add my photos to the gallery images
+        2.  Add their own testimonials
+        3.  Add their photos to the gallery images
 
-## Strategy
+    ### Strategy
 
-To create a simple and attractive site for runners of all levels of ability and offer
-an opportunity to join the club and use the training plans provided
+    To create a simple and attractive site for runners of all levels of ability and offer
+    an opportunity to join the club and use the training plans provided
 
-## Scope
+    ### Scope
 
-To provide a brief history of the club , supported by member testimonials. To display a
-selection of training plans, links to associate running clubs and a members gallery.
+    To provide a brief history of the club , supported by member testimonials. To display a
+    selection of training plans, links to associate running clubs and a members gallery.
 
-## Structure
+    ### Structure
 
-The site is designed to provide an instant opportunity to join the club from the landing
-page and an additional option to join the club from the plans section.
-The site is easily navigated from the Navigation menu at the top of the page.
+    The site is designed to provide an instant opportunity to join the club from the landing
+    page and an additional option to join the club from the plans section.
+    The site is easily navigated from the Navigation menu at the top of the page.
 
-## Skelton
+    ### Skelton
 
-The initial design layout was created using Figma.
+    The initial design layout was created using Figma.
 
-## Surface
+    ### Surface
 
-An image of runners was chosen for the landing page , with a opacity added to
-enable the text to be more visible. The font chosen was Roboto and a basic grey colur scheme
-for the Navigation Bar and section headings has been used
+    An image of runners was chosen for the landing page , with a opacity added to
+    enable the text to be more visible. The font chosen was Roboto and a basic grey colur scheme
+f   or the Navigation Bar and section headings has been used
 
 
 ## Design
 
-- ### Colour scheme
+-   ### Colour scheme
 
     The predominate colours are Grey and Whitesmoke. The Grey was selected as it was felt that it blended well with the 
     background colours hero image and the whitesmoke background enhanced the grey text.
 
-- ### Typography
+-    ### Typography
 
     Roboto was selected as the chosen font for the site as it displays a clear and easily readable text. Sans Serif has been
     selected as the fallback text should the main font fail to import correctly for any reason.
 
-- ### Images
+-   ### Images
 
     The Hero image has been selected to show a mass participation running event with the site call-out overlayed on top .
 
-#  Technologies used
+##  Technologies used
 
 1.  HTML - For the basic site code. (https://en.wikipedia.org/wiki/HTML5)
 2.  CSS - For styling. (https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -117,14 +117,28 @@ Add functionality to allow plans to be ordered. (Order Button to be added)
 
 ## Testing
 
-All links to outside sites are functional and working. The site has been tested on mobile, tablet and large screen devices for compatabity and functionality
+W3C Markup Validator and W3C CSS Validator Services have been used to validate all code of the project ensuring
+no syntax errors were found.
 
-validator.w3.org/#validate_by_input was used to check the HTML and was error free
+[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found. 
 
-jigsaw.w3.org/css-validator/validator was used to check the CSS with no errors. One warning message was reported stating that imported stylesheets are not checked
+    Warning messages :
+        The document is not mappable to XML 1.0 due to two consecutive hyphens in a comments .
 
-Chrome Dev Tools were used to test styling issues before code was upodated . An additional test.html file was used during coding to
-understand the changes HTML and CSS code had on the index.html during coding. This test file was subsequently deleted when coding was finished
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found.
+ 
+  Four warning messages :
+    Imported style sheets are not checked in direct input and file upload modes
+    -moz-transition is an unknown vendor extension
+    -webkit-transition is an unknown vendor extension
+    -o-transition is an unknown vendor extension
+
+    Chrome Dev Tools - for testing:
+    Mobile and tablet views and responsiveness
+    CSS styling changes before implementing it in the code
+    Network to assess whether it was picking up Javascript
+
+ 
 
 ## Bugs and issues
 
