@@ -15,21 +15,21 @@ range of different running events.
 
     -   #### First Time users
 
-        1. Quickly umderstandstand the purpose of the site.
-        2. Easily navigate around the site to view the content.
-        3. Read testimonials which support reasons why i should join the club.
+        1. Easily navigate around the site to view the content.
+        2. Quickly understandstand the purpose of the site.
+        3. Read testimonials which support reasons why potential users should join the club.
 
     -   #### Returning users
 
-        1.  A simple and easy sign up process
-        2.  Easy access to the training plans
-        3.  Access to other supporting running organisations
+        1.  A simple and easy sign up process.
+        2.  Easy access to the training plans.
+        3.  Access to other supporting running organisations.
         
     -   #### Frequent users
 
-        1.  Check to see if any additional and/or new training plans have been added
-        2.  Add their own testimonials
-        3.  Add their photos to the gallery images
+        1.  Check to see if any additional and/or new training plans have been added.
+        2.  Add their own testimonials.
+        3.  Add their photos to the gallery images.
 
     ### Strategy
 
@@ -44,8 +44,7 @@ range of different running events.
     ### Structure
 
     The site is designed to provide an instant opportunity to join the club from the landing
-    page and an additional option to join the club from the plans section.
-    The site is easily navigated from the Navigation menu at the top of the page.
+    page. The site is easily navigated from the Navigation menu at the top of the page.
 
     ### Skelton
 
@@ -54,8 +53,7 @@ range of different running events.
     ### Surface
 
     An image of runners was chosen for the landing page , with a opacity added to
-    enable the text to be more visible. The font chosen was Roboto and a basic grey colur scheme
-f   or the Navigation Bar and section headings has been used
+    enable the text to be more visible.
 
 
 ## Design
@@ -65,7 +63,7 @@ f   or the Navigation Bar and section headings has been used
     The predominate colours are Grey and Whitesmoke. The Grey was selected as it was felt that it blended well with the 
     background colours hero image and the whitesmoke background enhanced the grey text.
 
--    ### Typography
+-   ### Typography
 
     Roboto was selected as the chosen font for the site as it displays a clear and easily readable text. Sans Serif has been
     selected as the fallback text should the main font fail to import correctly for any reason.
@@ -86,34 +84,27 @@ f   or the Navigation Bar and section headings has been used
 ## Features
 
 **Navigation Bar :** Allows users to navigate to all sections of the site in a simply manner
-and return to the Home page from any page
-
+and return to the Home page from any page.
 **Hero Image :** The Hero image shows a running event with a zoom effect , additionally a call to action button invites users
-to join the club immediately
-
-**About and Testimonial sections:** Provides a brief summary about the formation of the club and its running ideologies. The testimonials display positive feedback from members
-
-**Plans:** This displays another call to action button to invite users to join the site
-and a selection of training plans that are selected via check boxes
-
+to join the club immediately.
+**About and Testimonial sections:** Provides a brief summary about the formation of the club and its running ideologies. The testimonials display positive feedback from members.
+**Plans:** This displays another call to action button to invite users to join the site.
+and a selection of training plans that are selected via check boxes.
 **Sign Up Modal:** A modal pop up box is triggered when a user clicks on either sign up button to
 allow them to enter personal details and sign up to the club.
-
-**Clubs:** Provides working links to running based websites
-
-**Gallery:** Displays members images
-
+**Clubs:** Provides working links to running based websites.
+**Gallery:** Displays members images.
 **Footer:** Displays club address and contact number and linkds to social media sites.
 
 ## Future Implimentations
 
-Connect modal pop-up to a live database to capture new user details
-
-Add a sign in function / button with validation to check whether users are current members
-
-Add functionality to restrict non members from selecting plans
-
-Add functionality to allow plans to be ordered. (Order Button to be added)
+Connect modal pop-up to a live database to capture new user details.
+Add a sign in function / button with validation to check whether users are current members.
+Add functionality to restrict non members from selecting plans.
+Add functionality to allow plans to be ordered. (Order Button to be added).
+Updates as to when new plans have been added.
+Ability to add testimonials.
+Ability to add images.
 
 ## Testing
 
@@ -122,8 +113,8 @@ no syntax errors were found.
 
 [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found. 
 
-    Warning messages :
-        The document is not mappable to XML 1.0 due to two consecutive hyphens in a comments .
+  Warning messages :
+   The document is not mappable to XML 1.0 due to two consecutive hyphens in a comments .
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found.
  
@@ -133,19 +124,71 @@ no syntax errors were found.
     -webkit-transition is an unknown vendor extension
     -o-transition is an unknown vendor extension
 
-    Chrome Dev Tools - for testing:
-    Mobile and tablet views and responsiveness
-    CSS styling changes before implementing it in the code
-    Network to assess whether it was picking up Javascript
+   Chrome Dev Tools 
 
- 
+   For testing mobile and tablet views and responsiveness
+   CSS styling changes before implementing it in the code
+   Network to assess whether it was picking up Javascript
 
+ ### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1.Easily navigate around the site to view the content.
+
+        Users are presented an easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        The user can easily navigate around the site by using the navigation bar or by scrolling up and down
+        
+    2. Quickly understandstand the purpose of the site.
+
+        There is a Hero Image with text and a "sign up" Call to action button.
+        The first section of the site explains the ethos of the club and its ideologies.
+        The training plans are clearly presented and catagorised by runner ability.
+
+    3. Read testimonials which support reasons why potential users should join the club.
+
+        The testimonials provide positive feedback from members about the site and the training plans provided
+        The sign up button is clearly presented to the user on the Home page.
+
+-   #### Returning Visitor Goals
+
+    1. A simple and easy sign up process.
+
+       The sign up button is clearly presented to the user on the Home page.
+       The sign up button quickly displays a pop-up join form
+       The form requests basic information with prompts in the required fields
+
+    2. Easy access to the training plans.
+
+        The plans are easily accessed by clicking on the plans link or scrolling to the page
+        Individual plans are selected by checking the required box
+        There is no restriction on the number of plans that can be ordered
+
+    3. Access to other supporting running organisations.
+       
+       Links to support running clubs are easily accessed by clicking on the clubs link or scrolling to the page
+       Each link opens on a new page 
+
+
+-   #### Frequent User Goals
+
+    1. Check to see if any additional and/or new training plans have been added.
+
+        This function has not been added to the site
+
+    2. Add their own testimonials.
+
+        This function has not been added to the site
+
+    3. Add their photos to the gallery images.
+
+        This function has not been added to the site
 ## Bugs and issues
 
 An issue with the modal pop up effecting the layout on mobile devices was found during the design stage. This appeared to be due to the modal coding being placed inside a code section.
 Once the modal coding was placed outside of the screen layout code the issue was resolved.
-The site was initailly slow to load and was improved by moving the Gallery section to a new file (gallery.html), however links to the Home page do appear to be a little slower to loads than other links. Further investigation is required ro resolve this.
-On mobile devices the Nav Bar pop up menu obscures some headings when the links are selected. Again further investigation is required but timeframes for project submission have not allowed this
+The site was initailly slow to load and was improved by moving the Gallery section to a new file (gallery.html).
+On mobile devices the Nav Bar pop up menu obscures some headings when the links are selected. further investigation is required but timeframes for project submission have not allowed this
 
 ## Deployment
 
@@ -162,12 +205,12 @@ The code has been written by myself with the exception of the Modal function. Th
 and modified by myself to meet the needs of the site
 
 **Media**  
- Icons were sourced from FontAwesome
+ Icons were sourced from FontAwesome  (https://fontawesome.com)
 
 Images were sourced from Unsplash , a free useable image site
 https://unsplash.com/
 
-Fonts were sourced from Google Fonts
+Fonts were sourced from Google Fonts (https://fonts.google.com/)
 
 **Acknowledgements**
 
@@ -175,7 +218,7 @@ https://www.w3schools.com/bootstrap4/ For use of built in class definitions , ex
 
 Slack community for support and advice during the construction of the site
 
-Code Institute tutors or support and advice during the construction of the site
+Code Institute tutors for support and advice during the construction of the site
 
 Code Institute coursework for reference
 
