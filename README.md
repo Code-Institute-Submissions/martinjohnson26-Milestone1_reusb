@@ -55,7 +55,6 @@ range of different running events.
     An image of runners was chosen for the landing page , with a opacity added to
     enable the text to be more visible.
 
-
 ## Design
 
 -   ### Colour scheme
@@ -85,25 +84,38 @@ range of different running events.
 
 **Navigation Bar :** Allows users to navigate to all sections of the site in a simply manner
 and return to the Home page from any page.
+
 **Hero Image :** The Hero image shows a running event with a zoom effect , additionally a call to action button invites users
 to join the club immediately.
+
 **About and Testimonial sections:** Provides a brief summary about the formation of the club and its running ideologies. The testimonials display positive feedback from members.
+
 **Plans:** This displays another call to action button to invite users to join the site.
 and a selection of training plans that are selected via check boxes.
+
 **Sign Up Modal:** A modal pop up box is triggered when a user clicks on either sign up button to
 allow them to enter personal details and sign up to the club.
+
 **Clubs:** Provides working links to running based websites.
+
 **Gallery:** Displays members images.
+
 **Footer:** Displays club address and contact number and linkds to social media sites.
 
 ## Future Implimentations
 
 Connect modal pop-up to a live database to capture new user details.
+
 Add a sign in function / button with validation to check whether users are current members.
+
 Add functionality to restrict non members from selecting plans.
+
 Add functionality to allow plans to be ordered. (Order Button to be added).
+
 Updates as to when new plans have been added.
+
 Ability to add testimonials.
+
 Ability to add images.
 
 ## Testing
@@ -119,24 +131,30 @@ no syntax errors were found.
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found.
  
   Four warning messages :
-    Imported style sheets are not checked in direct input and file upload modes
-    -moz-transition is an unknown vendor extension
-    -webkit-transition is an unknown vendor extension
-    -o-transition is an unknown vendor extension
 
-   Chrome Dev Tools 
+   Imported style sheets are not checked in direct input and file upload modes
+
+moz-transition is an unknown vendor extension.
+
+ webkit-transition is an unknown vendor extension
+
+o-transition is an unknown vendor extension
+
+Chrome Dev Tools 
 
    For testing mobile and tablet views and responsiveness
+
    CSS styling changes before implementing it in the code
+   
    Network to assess whether it was picking up Javascript
 
  ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1.Easily navigate around the site to view the content.
+    1. Easily navigate around the site to view the content.
 
-        Users are presented an easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+         Users are presented an easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
         The user can easily navigate around the site by using the navigation bar or by scrolling up and down
         
     2. Quickly understandstand the purpose of the site.
@@ -169,7 +187,6 @@ no syntax errors were found.
        Links to support running clubs are easily accessed by clicking on the clubs link or scrolling to the page
        Each link opens on a new page 
 
-
 -   #### Frequent User Goals
 
     1. Check to see if any additional and/or new training plans have been added.
@@ -183,6 +200,7 @@ no syntax errors were found.
     3. Add their photos to the gallery images.
 
         This function has not been added to the site
+
 ## Bugs and issues
 
 An issue with the modal pop up effecting the layout on mobile devices was found during the design stage. This appeared to be due to the modal coding being placed inside a code section.
@@ -207,8 +225,7 @@ and modified by myself to meet the needs of the site
 **Media**  
  Icons were sourced from FontAwesome  (https://fontawesome.com)
 
-Images were sourced from Unsplash , a free useable image site
-https://unsplash.com/
+Images were sourced from Unsplash , a free useable image site (https://unsplash.com/)
 
 Fonts were sourced from Google Fonts (https://fonts.google.com/)
 
