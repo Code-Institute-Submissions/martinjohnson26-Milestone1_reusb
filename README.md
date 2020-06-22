@@ -127,12 +127,6 @@ no syntax errors were found.
 
 [W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
-  moz-transition is an unknown vendor extension.
-
- webkit-transition is an unknown vendor extension
-
-o-transition is an unknown vendor extension
-
 Chrome Dev Tools 
 
    For testing mobile and tablet views and responsiveness
@@ -231,5 +225,7 @@ Slack community for support and advice during the construction of the site
 Code Institute tutors for support and advice during the construction of the site
 
 Code Institute coursework for reference
+
+Code Institute for sample README file , which was used as a base template for thie README file
 
 Oluwafemi Medale (CI Mentor) For help, support, advice and positive feedback from the initail inception of the site through to completion
