@@ -76,9 +76,9 @@ range of different running events.
 1.  HTML - For the basic site code. (https://en.wikipedia.org/wiki/HTML5)
 2.  CSS - For styling. (https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 3.  Bootstrap - For additional styling, responsiveness, layout(grids) and modal function(sign up form).(https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-4.  Figma - For initial design layout. (https://www.figma.com/)
-5.  GitPod - For version control and commiting to GitHub.(https://www.gitpod.io/)
-6.  GitHub - For the repository to store the pushed code. (https://github.com/)
+4.  GitPod - For version control and commiting to GitHub.(https://www.gitpod.io/)
+5.  GitHub - For the repository to store the pushed code. (https://github.com/)
+6.  Figma - For initial design layout. (https://github.com/martinjohnson26Mmilestone1/tree/master/assets/readmeimages)
 
 ## Features
 
