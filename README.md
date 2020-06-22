@@ -125,16 +125,9 @@ no syntax errors were found.
 
 [W3C Markup Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/indexhtml.png) - Result = No errors found. 
 
-  Warning messages :
-   The document is not mappable to XML 1.0 due to two consecutive hyphens in a comments .
-
 [W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
-  Four warning messages :
-
-   Imported style sheets are not checked in direct input and file upload modes
-
-moz-transition is an unknown vendor extension.
+  moz-transition is an unknown vendor extension.
 
  webkit-transition is an unknown vendor extension
 
