@@ -78,7 +78,7 @@ range of different running events.
 3.  Bootstrap - For additional styling, responsiveness, layout(grids) and modal function(sign up form).(https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 4.  GitPod - For version control and commiting to GitHub.(https://www.gitpod.io/)
 5.  GitHub - For the repository to store the pushed code. (https://github.com/)
-6.  Figma - For initial design layout. (https://github.com/martinjohnson26Mmilestone1/tree/master/assets/readmeimages)
+6.  Figma - For initial design layout. (https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/wireframe-milestone1.pdf)
 
 ## Features
 
@@ -123,12 +123,12 @@ Ability to add images.
 W3C Markup Validator and W3C CSS Validator Services have been used to validate all code of the project ensuring
 no syntax errors were found.
 
-[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found. 
+[W3C Markup Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/indexhtml.png) - Result = No errors found. 
 
   Warning messages :
    The document is not mappable to XML 1.0 due to two consecutive hyphens in a comments .
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Result = No errors found.
+[W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
   Four warning messages :
 
