@@ -75,6 +75,65 @@
       </div>
     </section>
 
+    <!-- ========================= Sign Up section ======================== -->
+
+    <div class="signup-form">
+            <form action="https://formdump.codeinstitute.net/" method="post">
+              <label for="firstname">First Name</label>
+              <input
+                type="text" required
+                class="form-control"
+                id="firstname"
+                placeholder="First Name"
+              />
+              <label for="lastname">Last Name</label>
+              <input
+                type="text" required
+                class="form-control"
+                id="lastname"
+                placeholder="Last Name"
+              />
+             <label for="datebirth">Date of Birth</label>
+              <input
+                type="date" required
+                class="form-control"
+                id="datebirth"
+                placeholder="DD/MM/YYYY"
+              />
+              <label for="email">Email address</label>
+              <input
+                type="email" required 
+                class="form-control"
+                id="email"
+                placeholder="E-mail Address"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+              <label for="password1">Create Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password1"
+                placeholder="Please enter a password"
+              />
+              <label for="password2">Re-Enter Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password2"
+                placeholder="Please re-enter your password"
+              />
+            </form>
+          </div>
+          <div class="signup-button">
+            <button type="button" class="btn btn-dark">Join Now</button>
+            <button type="button" class="btn btn-light">
+              Close
+            </button>
+          </div>
+
+
     <!-- ========================= about section ======================== -->
     <section id="about">
       <div class="container-fluid container-about py-2">
@@ -493,84 +552,7 @@
       </div>
     </section>
 
-    <!-- ========================= The Modal ============================= -->
-    <div class="modal" id="joinclub">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- =================== Modal Header ========================== -->
-          <div class="modal-header">
-            <h5 class="modal-title">Join Lets Keep Running</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <!-- ================== Modal body ============================== -->
-          <div class="modal-body">
-            <form action="https://formdump.codeinstitute.net/" method="post">
-              <label for="firstname">First Name</label>
-              <input
-                type="text" required
-                class="form-control"
-                id="firstname"
-                placeholder="First Name"
-              />
-              <label for="lastname">Last Name</label>
-              <input
-                type="text" required
-                class="form-control"
-                id="lastname"
-                placeholder="Last Name"
-              />
-              
-             <label for="datebirth">Date of Birth</label>
-              <input
-                type="date" required
-                class="form-control"
-                id="datebirth"
-                placeholder="DD/MM/YYYY"
-              />
-              
-              <label for="email">Email address</label>
-              <input
-                type="email" required 
-                class="form-control"
-                id="email"
-                placeholder="E-mail Address"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
-              <label for="password1">Password</label>
-              <input
-                type="password" required
-                class="form-control"
-                id="password1"
-                placeholder="Please enter a password"
-              />
-              <label for="password2">Re-Enter Password</label>
-              <input
-                type="password" required
-                class="form-control"
-                id="password2"
-                placeholder="Please re-enter your password"
-              />
-            </form>
-          </div>
-          <!-- ================== Modal footer ============================ -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-dark">Join Now</button>
-            <button type="button" class="btn btn-light" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+   
 
     <!-- ======================= footer ==================================== -->
     <footer>
