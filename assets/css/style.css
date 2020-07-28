@@ -129,6 +129,11 @@ body {
 }
 /*-------------clubs section-----------------------------------------------*/
 
+#clubs {
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+
 .container-clubs h2 {
   letter-spacing: 5px;
   margin-top: 10px;
@@ -156,7 +161,7 @@ body {
 
 #gallery {
   margin-bottom: 40px;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .container-gallery h2 {
