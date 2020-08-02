@@ -57,6 +57,11 @@ range of different running events.
 
 ## Design
 
+    ### Initial Design
+
+    Figma was used f0r initial design layout. This can be view by clicking the link below
+    (https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/wireframe-milestone1.pdf)
+
 -   ### Colour scheme
 
     The predominate colours are Grey and Whitesmoke. The Grey was selected as it was felt that it blended well with the 
@@ -78,7 +83,7 @@ range of different running events.
 3.  Bootstrap - For additional styling, responsiveness, layout(grids) and modal function(sign up form).(https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 4.  GitPod - For version control and commiting to GitHub.(https://www.gitpod.io/)
 5.  GitHub - For the repository to store the pushed code. (https://github.com/)
-6.  Figma - For initial design layout. (https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/wireframe-milestone1.pdf)
+
 
 ## Features
 
@@ -90,15 +95,14 @@ to join the club immediately.
 
 **About and Testimonial sections:** Provides a brief summary about the formation of the club and its running ideologies. The testimonials display positive feedback from members.
 
-**Plans:** This displays another call to action button to invite users to join the site.
-and a selection of training plans that are selected via check boxes.
+**Plans:** This displays the six race type plans avaialable and provides users with a brief summary about the plans.
 
-**Sign Up Modal:** A modal pop up box is triggered when a user clicks on either sign up button to
+**Sign Up Modal:** A modal pop up box is triggered when a user clicks on the sign up button to
 allow them to enter personal details and sign up to the club.
 
 **Clubs:** Provides working links to running based websites.
 
-**Gallery:** Displays members images.
+**Gallery:** Displays members images. These were sourced from Unsplash , a free useable image site (https://unsplash.com/)
 
 **Footer:** Displays club address and contact number and linkds to social media sites.
 
@@ -107,8 +111,6 @@ allow them to enter personal details and sign up to the club.
 Connect modal pop-up to a live database to capture new user details.
 
 Add a sign in function / button with validation to check whether users are current members.
-
-Add functionality to restrict non members from selecting plans.
 
 Add functionality to allow plans to be ordered. (Order Button to be added).
 
@@ -141,12 +143,12 @@ Chrome Dev Tools
 
     1. Easily navigate around the site to view the content.
 
-         Users are presented an easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+         Users are presented an easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Sign Up" Call to action button.
         The user can easily navigate around the site by using the navigation bar or by scrolling up and down
         
     2. Quickly understandstand the purpose of the site.
 
-        There is a Hero Image with text and a "sign up" Call to action button.
+        There is a Hero Image with text and a "Sign Up" Call to action button.
         The first section of the site explains the ethos of the club and its ideologies.
         The training plans are clearly presented and catagorised by runner ability.
 
@@ -160,14 +162,15 @@ Chrome Dev Tools
     1. A simple and easy sign up process.
 
        The sign up button is clearly presented to the user on the Home page.
-       The sign up button quickly displays a pop-up join form
-       The form requests basic information with prompts in the required fields
+       The sign up button quickly displays a pop-up join form.
+       The form requests basic information with prompts in the required fields.
 
-    2. Easy access to the training plans.
+    2. Easy to view descriptive summaries of the training plans.
 
-        The plans are easily accessed by clicking on the plans link or scrolling to the page
-        Individual plans are selected by checking the required box
-        There is no restriction on the number of plans that can be ordered
+        The plans are easily accessed by clicking on the plans link or scrolling to the page.
+        Individual distance/ race type plans are viewed by selecting the tab displaying the corresponding name.
+        Each plan gives a brief description of what the plans are about without revealing the full content of each plan.
+        This intentional with the aim to entice the user to join the club and get full access to the plans
 
     3. Access to other supporting running organisations.
        
@@ -192,8 +195,14 @@ Chrome Dev Tools
 
 An issue with the modal pop up effecting the layout on mobile devices was found during the design stage. This appeared to be due to the modal coding being placed inside a code section.
 Once the modal coding was placed outside of the screen layout code the issue was resolved.
-The site was initailly slow to load and was improved by moving the Gallery section to a new file (gallery.html).
-On mobile devices the Nav Bar pop up menu obscures some headings when the links are selected. further investigation is required but timeframes for project submission have not allowed this
+On mobile devices the Nav Bar pop up menu obscured some headings when the links where selected. This was resolved by reveiwing the Bootstrap 
+coding relating to NavBars and add a navbar-collapse class to the appropriate div element.
+The project failed its first submission due to the navbar not working correctly and issues with horizontal scrolling.
+The navbar issue was attributed to a typo spelling error in a class name which made the NavBar non operational.
+The scrolling issue was attributed to some div elements having a class of container and others container-fluid. Both issues have been corrected
+The initial submission also had a list of training plans that were selected by radio buttons but gave no information about the plans.
+This was subsequently removed and replaced with a tabular format which provides more information to the user.
+The user gallery had images that had not been attributed to the provider. This has now been corrected
 
 ## Deployment
 
@@ -206,8 +215,12 @@ using one main master branch
 ## Credits
 
 **Content:** The inspiration for the site came from my own passion for running and transition from novice runner to a sub 2 hour Half marathoner.
-The code has been written by myself with the exception of the Modal function. This was copied from https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_modal&stacked=h
-and modified by myself to meet the needs of the site
+The code has been written by myself with the exception of the Modal function and the Tabbed Menu. The core design and layout were copied from
+ https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_modal&stacked=h
+ https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_nav_tabs&stacked=h
+and modified by myself to meet the needs of the site.
+The Code Institute Love Running and Rosie CV lesson were referenced and used to assist with the layout of the Gallery and the Footer section
+Social Media links
 
 **Media**  
  Icons were sourced from FontAwesome  (https://fontawesome.com)
