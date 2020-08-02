@@ -59,7 +59,7 @@ range of different running events.
 
     ### Initial Design
 
-    Figma was used f0r initial design layout. This can be view by clicking the link below
+    Figma was used fodesign r initial design layout. This can be view by clicking the link below
     (https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/wireframe-milestone1.pdf)
 
 -   ### Colour scheme
