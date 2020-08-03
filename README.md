@@ -133,12 +133,8 @@ no syntax errors were found.
 [W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
 Chrome Dev Tools 
-
-        For testing mobile and tablet views and responsiveness
-
-        CSS styling changes before implementing it in the code
-   
-        Network to assess whether it was picking up Javascript
+    For testing mobile and tablet views and responsiveness, CSS styling changes before implementing it in the code and 
+    Network to assess whether it was picking up Javascript.
 
  ### Testing User Stories from User Experience (UX) Section
 
