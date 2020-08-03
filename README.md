@@ -127,8 +127,7 @@ W3C Markup Validator and W3C CSS Validator Services have been used to validate a
 no syntax errors were found.
 
 [W3C Markup Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/indexhtml.png) - Result = No errors found. One Warning Message
-
-    The warning relates to a date input type being used that may not be supported in all browsers
+The warning relates to a date input type being used that may not be supported in all browsers
 
 [W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
