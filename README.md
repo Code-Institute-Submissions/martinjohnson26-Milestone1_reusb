@@ -57,9 +57,10 @@ range of different running events.
 
 ## Design
 
-    ### Initial Design
+-   ### Initial Design
 
     Figma was used fodesign r initial design layout. This can be view by clicking the link below
+
     (https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/wireframe-milestone1.pdf)
 
 -   ### Colour scheme
@@ -104,7 +105,7 @@ allow them to enter personal details and sign up to the club.
 
 **Gallery:** Displays members images. These were sourced from Unsplash , a free useable image site (https://unsplash.com/)
 
-**Footer:** Displays club address and contact number and linkds to social media sites.
+**Footer:** Displays club address and contact number and links to social media sites.
 
 ## Future Implimentations
 
@@ -125,17 +126,19 @@ Ability to add images.
 W3C Markup Validator and W3C CSS Validator Services have been used to validate all code of the project ensuring
 no syntax errors were found.
 
-[W3C Markup Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/indexhtml.png) - Result = No errors found. 
+[W3C Markup Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/indexhtml.png) - Result = No errors found. One Warning Message
+
+    The warning relates to a date input type being used that may not be supported in all browsers
 
 [W3C CSS Validator](https://github.com/martinjohnson26/Milestone1/blob/master/assets/readmeimages/stylecss.png) - Result = No errors found.
  
 Chrome Dev Tools 
 
-   For testing mobile and tablet views and responsiveness
+        For testing mobile and tablet views and responsiveness
 
-   CSS styling changes before implementing it in the code
+        CSS styling changes before implementing it in the code
    
-   Network to assess whether it was picking up Javascript
+        Network to assess whether it was picking up Javascript
 
  ### Testing User Stories from User Experience (UX) Section
 
